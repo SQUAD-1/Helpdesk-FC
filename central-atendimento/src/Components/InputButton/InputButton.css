@@ -1,0 +1,8 @@
+.inputButton{
+    width: auto;
+    padding: 5px;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+}   

@@ -1,13 +1,13 @@
-import './App.css';
+//import './App.css';
+import { Cliente } from './Tamplates/Cliente/ClienteIndex';
 
 function App() {
   return (
     <div className="App">
-        
-        <h1>
-          Tela Inicial
-        </h1>
-        <p>O que iremos colocar aqui?</p>
+
+        <section>
+          <Cliente />
+        </section>
         
     </div>
   );
