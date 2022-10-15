@@ -1,21 +1,12 @@
 import { InputButton } from "../../Components/InputButton/InputButton"
+import { NavBar } from "../../Components/NavBar/NavBar"
 import './ClienteIndex.css'
 
-export const Cliente = ({nome}) => {
+export const Cliente = () => {
     return(
-        <section>
+        <>
 
-            <nav className="navSection">
-
-                <div className="imgSection">
-                    <img src="" alt="" />
-                </div>
-
-                <div>
-                    <p>Olá, {nome}</p> 
-                </div>
-
-            </nav>
+            <NavBar nome=" Josenilda " />
 
             <header className="optionsSection">
 
@@ -26,7 +17,7 @@ export const Cliente = ({nome}) => {
                 </div>
 
             </header>
-        </section>
+        </>
     )
 
 }
