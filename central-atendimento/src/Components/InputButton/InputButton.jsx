@@ -4,7 +4,9 @@ export const InputButton = ({text}) => {
 
     return(
         <section>
-            <input className="inputButton" type="button" value={text} />
+            <div>
+                <input className="inputButton" type="button" value={text} />
+            </div>
         </section>
     )
 

@@ -24,11 +24,11 @@ bottom: 18.75%;
 }
 
 .infoAtendente{
-position: absolute;
-left: 84.7%;
-right: 5.78%;
-top: 5.75%;
-bottom: 18.75%;
+    position: absolute;
+    left: 84.7%;
+    right: 5.78%;
+    top: 5.75%;
+    bottom: 18.75%;
 }
 
 .infoAtendente p{

@@ -1,20 +1,50 @@
 .optionsSection{
-    
+    position: absolute;
+    width: 600px;
+    height: 330px;
+    left: 250px;
+    top: 150px;
+
+    border: 2px solid #A0A2A4;
+    border-radius: 10px;
 }
 
 .optionsSection h1{
     position: absolute;
-width: 473px;
-height: 39px;
-left: 350px;
-top: 150px;
-margin: auto;
+    width: 473px;
+    height: 39px;
+    left: 100px; 
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
 
-color: #E71C35;
+    color: #E71C35;
 }
+
+.optionsSection button{
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    color: #000000;
+
+    background: none;
+    border: none;
+
+}
+
+.button{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px;
+}
+
