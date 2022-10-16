@@ -7,13 +7,13 @@ export const NavBar = ({nome}) => {
         <nav className="navSection">
 
                 <div className="imgSection">
-                    <img src="../../img/ferreiracosta.svg" alt="Ferreira Costa" />
+                    <img src="../../../img/ferreiracosta.svg" alt="" />
                 </div>
 
                 <div className='infoAtendente'>
                     <div className='imgLogado' />
 
-                    <p className='atendenteName' >Olá, &nbsp; { nome }</p> 
+                    <p className='logadoName' >Olá, &nbsp; { nome }</p> 
                 </div>
 
             </nav>
