@@ -1,5 +1,7 @@
 import './NavBar.css'
 
+// Componente que exibe o navBar dos clientes
+
 export const NavBar = ({nome}) => {
 
     return(
@@ -10,7 +12,7 @@ export const NavBar = ({nome}) => {
                     <img src="../../../img/ferreiracosta.svg" alt="" />
                 </div>
 
-                <div className='infoAtendente'>
+                <div className='infoCliente'>
                     <div className='imgLogado' />
 
                     <p className='logadoName' >Olá, &nbsp; { nome }</p> 

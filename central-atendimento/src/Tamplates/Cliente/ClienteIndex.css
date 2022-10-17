@@ -1,3 +1,4 @@
+/* Style das opções da seção */
 .optionsSection{
     position: absolute;
     width: 600px;
@@ -8,6 +9,7 @@
     border-radius: 10px;
 }
 
+/* Style do Título */
 .optionsSection h1{
     position: absolute;
     width: 473px;
@@ -23,6 +25,7 @@
     color: #E71C35;
 }
 
+/* Style do botão voltar */
 .optionsSection button{
     position: relative;
     top: 10px;
@@ -40,6 +43,7 @@
 
 }
 
+/* Style botão voltar (posição) */
 .button{
         display: flex;
         flex-direction: row;

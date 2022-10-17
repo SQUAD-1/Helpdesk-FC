@@ -2,18 +2,21 @@ import { InputButton } from "../../Components/InputButton/InputButton"
 import { NavBar } from "../../Components/NavBar/NavBar"
 import './ClienteIndex.css'
 
+// Componente Responsável por exibir as opções para os clientes
 export const Cliente = () => {
     return(
         <>
-
+            {/* Componente do navBAr */}
             <NavBar nome=" Josenilda " />
 
+            {/* Seção das opções */}
             <header className="optionsSection">
 
                 <button> Voltar </button>
 
                 <h1>Sobre o que deseja falar?</h1>
 
+                {/* Importações dos Botões */}
                 <div className="buttonSection" >
                     <div className="button">
                         <InputButton text="Reclamações" />
