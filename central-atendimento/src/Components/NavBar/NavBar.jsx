@@ -1,4 +1,6 @@
-import './NavBar.css'
+import './NavBar.css';
+import logo from '../img/ferreiracosta.svg'
+
 
 // Componente que exibe o navBar dos clientes
 
@@ -9,13 +11,13 @@ export const NavBar = ({nome}) => {
         <nav className="navSection">
 
                 <div className="imgSection">
-                    <img src="../../../img/ferreiracosta.svg" alt="" />
+                    <img src={logo} alt="Ferreira Costa" />
                 </div>
 
                 <div className='infoCliente'>
                     <div className='imgLogado' />
 
-                    <p className='logadoName' >Olá, &nbsp; { nome }</p> 
+                    <p className='logadoName' >Olá, &nbsp; <br /> { nome } </p> 
                 </div>
 
             </nav>

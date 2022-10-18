@@ -1,13 +1,13 @@
-import { InputButton } from "../../Components/InputButton/InputButton"
-import { NavBar } from "../../Components/NavBar/NavBar"
+import { InputButton } from "../../../Components/InputButton/InputButton"
+import { NavBar } from "../../../Components/NavBar/NavBar"
 import './ClienteIndex.css'
 
 // Componente Responsável por exibir as opções para os clientes
-export const Cliente = () => {
+export const ClienteIndex = () => {
     return(
         <>
             {/* Componente do navBAr */}
-            <NavBar nome=" Josenilda " />
+            <NavBar nome=" Josenilda Arruda" />
 
             {/* Seção das opções */}
             <header className="optionsSection">

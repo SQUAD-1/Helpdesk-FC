@@ -1,12 +1,12 @@
 //import './App.css';
-import { Cliente } from './Tamplates/Cliente/ClienteIndex';
+import { ClienteIndex } from "./Tamplates/Cliente/ClienteOpcoes/ClienteIndex";
 
 function App() {
   return (
     <div className="App">
 
         <section>
-          <Cliente />
+          <ClienteIndex />
         </section>
         
     </div>
