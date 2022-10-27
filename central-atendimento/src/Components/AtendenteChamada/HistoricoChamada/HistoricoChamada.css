@@ -1,0 +1,29 @@
+/* Histórico para Chamadas */
+.historicoChamadas{
+    position: absolute;
+    left: 8.15%;
+    right: 12.5%;
+    top: 28.5%;
+    bottom: 38.83%;
+}
+
+.historicoChamadas h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.historicoChamadas p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #000000;
+}
+

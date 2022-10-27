@@ -1,4 +1,6 @@
 //import './App.css';
+import { Chamada } from "./Components/AtendenteChamada/Chamada";
+import { AtendentePrincipal } from "./Tamplates/Atendente/Principal/AtendentePrincipal";
 import { ClienteIndex } from "./Tamplates/Cliente/ClienteOpcoes/ClienteIndex";
 
 function App() {
@@ -6,7 +8,12 @@ function App() {
     <div className="App">
 
         <section>
-          <ClienteIndex />
+          {/* <ClienteIndex /> */}
+
+          {/* <Chamada /> */}
+
+          <AtendentePrincipal />
+
         </section>
         
     </div>

@@ -1,0 +1,10 @@
+.blockChamada{
+    position: absolute;
+    width: 200px;
+    height: 450px;
+    left: 80%;
+    margin-top: 50px;
+
+    border: 1px solid #C3E3AA;
+    border-radius: 6px;
+}

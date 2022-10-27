@@ -1,5 +1,5 @@
 import './NavBar.css';
-import logo from '../img/ferreiracosta.svg'
+import logo from '../imgComponents/ferreiracosta.svg'
 
 
 // Componente que exibe o navBar dos clientes

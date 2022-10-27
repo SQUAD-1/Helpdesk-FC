@@ -1,0 +1,17 @@
+.chat{
+    position: absolute;
+    left: 10.87%;
+    right: 71.2%;
+    
+    bottom: 32.67%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+}

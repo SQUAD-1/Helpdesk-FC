@@ -1,0 +1,51 @@
+/* Informações Chamada */
+.infoChamada{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 4.89%;
+    right: 5.43%;
+
+    border: 1px solid #C3E3AA;
+    border-radius: 6px;
+}
+
+.detalheChamada{
+    position: absolute;
+    left: 10.87%;
+    right: 12.5%;
+   
+}
+
+.detalheChamada h4{
+    position: absolute;
+    left: 10.87%;
+    right: 53.8%;    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.detalheChamada h6{
+    position: absolute;
+    left: 12.5%;
+    right: 13.04%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
