@@ -40,8 +40,12 @@ article h3{
     position: absolute;
     width: 631px;
     height: 175px;
-    left: 150px;
+    left: 130px;
     top: 150px;
+}
+
+.contato h2{
+    left: 0px;
 }
 
 .telCelWhats{
