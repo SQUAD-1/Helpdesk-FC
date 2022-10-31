@@ -41,7 +41,7 @@ article h3{
     width: 631px;
     height: 175px;
     left: 150px;
-    margin-top: 300px;
+    top: 150px;
 }
 
 .telCelWhats{
@@ -50,4 +50,19 @@ article h3{
         width: 631px;
         height: 175px;
         top: 190px;
+}
+
+.cel{
+    margin-left: 60px;
+}
+
+.whats{
+    margin-left: 60px;
+}
+
+.email{
+    position: absolute;
+    width: 631px;
+    height: 175px;
+    top: 260px;
 }
