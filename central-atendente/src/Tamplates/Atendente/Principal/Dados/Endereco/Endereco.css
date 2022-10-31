@@ -1,0 +1,59 @@
+.endereco h2{
+    top: 600px;
+}
+
+.enderecoContainer{
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 175px;
+    left: 150px;
+    top: 649px;
+}
+
+.enderecoContainer2{
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 175px;
+    left: 100px;
+    top: 749px;
+}
+
+.endereco2{
+    width: 130px;
+}
+
+.numero{
+    margin-left: 0px;
+}
+
+.complemento{
+    margin-left: 50px;
+}
+
+.referencia{
+    margin-left: 50px;
+}
+
+.cidade{
+    margin-left: 50px;
+    
+}
+
+.cidade{
+    width: 100px;
+}
+
+.estado{
+    width: 100px;
+}
+
+.cep{
+    width: 100px;
+    margin-left: 30px;
+}
+
+.enderecoContainer2 .lineFinal{
+    left: 50px;
+}

@@ -1,41 +1,3 @@
-article h2{
-    position: absolute;
-    width: 226px;
-    height: 29px;
-    left: 150px;
-    top: 130px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    /* identical to box height */
-
-
-    color: #7AC143;
-}
-
-article p{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #4F5256;
-}
-
-article h3{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #000000;
-}
-
 .contato{
     position: absolute;
     width: 631px;
@@ -57,11 +19,11 @@ article h3{
 }
 
 .cel{
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .whats{
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .email{
