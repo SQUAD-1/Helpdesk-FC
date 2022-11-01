@@ -1,0 +1,18 @@
+.pedidosContainer{
+    position: absolute;
+    width: 632px;
+    height: 201px;
+    left: 161px;
+    top: 764px;
+}
+
+.squarPedidos{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+
+    background: #D9D9D9;
+    border-radius: 6px;
+
+    
+}
