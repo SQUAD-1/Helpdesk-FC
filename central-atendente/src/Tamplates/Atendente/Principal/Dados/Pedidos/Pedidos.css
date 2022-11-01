@@ -2,17 +2,85 @@
     position: absolute;
     width: 632px;
     height: 201px;
-    left: 161px;
-    top: 764px;
+    left: 130px;
+    top: 864px;
+}
+
+.pedidosContainer h2{
+    top: -80px;
+    left: 0px;
+}
+
+.detalhePedido{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.totalPedidos{
+    margin-top: -20px;
+}
+
+.finalizado{
+    margin-left: 80px;
+    margin-top: -20px;
 }
 
 .squarPedidos{
-    position: absolute;
+    position: relative;
+    display: flex;
     width: 80px;
     height: 80px;
 
     background: #D9D9D9;
     border-radius: 6px;
+}
 
-    
+.squarPedidos legend{
+    padding: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.squarPedidos p{
+    width: 200px;
+    display: block;
+    margin-left: 13px;
+    margin-top: 2px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 12px;
+
+    color: #000000;
+}
+
+.detalhes p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 10px;
+    /* identical to box height */
+
+    color: #4b4a4a;
+
+    margin: 0 13px;
+}
+
+
+.lineFinall{
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 0px;
+    margin-top: 30px;
+
+    border: 2px solid #DEF0D0;
 }
