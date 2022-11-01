@@ -1,3 +1,4 @@
+import { Chamados } from "./Chamados/Chamados"
 import { Contato } from "./Contato/Contato"
 import { Endereco } from "./Endereco/Endereco"
 import { Informacoes } from "./Informacoes/Informacoes"
@@ -14,6 +15,8 @@ export const Dados = () => {
             <Endereco endereco="Rua dos Amores" numero="952" complemento="Sem Complemento" referencia="Próximo ao Chão" cidade="Recife" estado="Pernambuco" cep="05204-533" />
 
             <Pedidos />
+            
+            <Chamados />
 
         </>
     )
