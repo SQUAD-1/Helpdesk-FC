@@ -5,7 +5,7 @@
     width: 113px;
     height: 24px;
     left: 700px;
-    top: 40px;
+    top: 60px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -16,11 +16,11 @@
     color: #000000;
 }
 
-.container{
+.containerEstatisticas{
     position: relative;
     width: 150px;
     left: 700px;
-    margin-top: 110px;
+    top: 50px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -30,6 +30,11 @@
     color: #000000;
 }
 
+.comprasFeitas{
+    padding: 2px 0;
+}
+
 .ligacao{
     font-size: 8px;
+    padding: 2px 0;
 }

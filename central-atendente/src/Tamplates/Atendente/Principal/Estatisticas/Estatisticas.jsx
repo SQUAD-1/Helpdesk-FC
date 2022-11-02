@@ -5,7 +5,8 @@ export const Estatisticas = () => {
         <section>
             <h1 className='title'>Estatísiticas</h1>
 
-            <div className='container'>
+            <div className='containerEstatisticas'>
+                
                 <div className='comprasFeitas'>
                     <h2>Nº de compras feitas</h2>
                     <h2>01 compras feitas</h2>

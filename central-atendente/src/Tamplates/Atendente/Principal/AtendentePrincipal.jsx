@@ -5,7 +5,9 @@ import { Estatisticas } from "./Estatisticas/Estatisticas"
 export const AtendentePrincipal = () => {
     return(
         <>
+
             <BarraLateral />
+            
             <Dados />
 
             <Estatisticas />
