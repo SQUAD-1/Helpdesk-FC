@@ -17,21 +17,24 @@ section{
 
 }
 
-article{
-    margin-left: 20px;
-    margin-top: 80px;
+article {
+    position: absolute;
+    margin-top: 20px;
 }
 
 .Bullet{
     margin-top: 10px;
+    margin-left: -15px;
 }
 
 .Bullet2{
     margin-top: 10px;
+    margin-left: -5px;
 }
 
 .Bullet3{
     margin-top: 10px;
+    
 }
 
 .Bullet4{
