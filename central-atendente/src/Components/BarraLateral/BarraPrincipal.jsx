@@ -1,12 +1,12 @@
 //import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './BarraPrincipal.css'
 
-import logo from '../Img/ferreiracosta.svg'
-import Bullet from '../Img/Bullet.svg'
-import Rectangle from '../Img/Rectangle.svg'
-import Rectangle2 from '../Img/Rectangle2.svg'
-import Rectangle3 from '../Img/Rectangle3.svg'
-import Rectangle4 from '../Img/Rectangle4.svg'
+import logo from './Img/ferreiracosta.svg'
+import Bullet from './Img/Bullet.svg'
+import Rectangle from './Img/Rectangle.svg'
+import Rectangle2 from './Img/Rectangle2.svg'
+import Rectangle3 from './Img/Rectangle3.svg'
+import Rectangle4 from './Img/Rectangle4.svg'
 
 export const BarraLateral = () => {
     return(

@@ -1,0 +1,33 @@
+section h1{
+
+    position: absolute;
+    width: 300px;
+    height: 39px;
+    left: 150px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 37px;
+    /* identical to box height */
+
+    color: #E71C35;
+}
+
+.imgTela{
+    position: absolute;
+    width: 340px;
+    height: 260px;
+    left: 369px;
+    top: 130px;
+}
+
+.componentAtendimento{
+    position: absolute;
+    width: 700px;
+    height: 155px;
+    margin-left: 180px;
+    top: 444px;
+}

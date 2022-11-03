@@ -1,5 +1,6 @@
 //import './App.css';
-import { AtendentePrincipal } from "./Tamplates/Atendente/Principal/AtendentePrincipal";
+// import { AtendentePrincipal } from "./Tamplates/Atendente/Principal/AtendentePrincipal";
+import { SegundaTela } from "./Tamplates/Atendente/SegundaTela/SegundaTela";
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
 
         <section>
 
-          <AtendentePrincipal />
+          {/* <AtendentePrincipal /> */}
+
+          <SegundaTela nome="José Vinicius" />
 
         </section>
         
