@@ -1,21 +1,19 @@
-//import './App.css';
-// import { AtendentePrincipal } from "./Tamplates/Atendente/Principal/AtendentePrincipal";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SegundaTela } from "./Tamplates/Atendente/SegundaTela/SegundaTela";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-
-        <section>
-
-          {/* <AtendentePrincipal /> */}
-
-          <SegundaTela nome="José Vinicius" />
-
-        </section>
-        
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={< SegundaTela/>}/>
+        <Route path="/cliente" element={< AtendentePrincipal/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+{/* <BarraLateral>
+    <Route path="/" element={< SegundaTela/>}/>
+    <Route path="/cliente" element={< AtendentePrincipal/>}/>
+</BarraLateral> */}
