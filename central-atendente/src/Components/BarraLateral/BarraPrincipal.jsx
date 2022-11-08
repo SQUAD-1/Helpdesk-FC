@@ -1,19 +1,19 @@
 //import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './BarraPrincipal.css'
 
-import logo from './Img/logo.svg'
-import inicio from './Img/inicio.svg'
-import Atendimentos from './Img/Atendimentos.svg'
-import Chamados from './Img/Chamados.svg'
-import Consulta from './Img/Consulta.svg'
-import Setores from './Img/Consulta.svg'
+import logoPequeno from '../../assets/ImgBarraLateral/logoPequeno.svg'
+import inicio from '../../assets/ImgBarraLateral/inicio.svg'
+import Atendimentos from '../../assets/ImgBarraLateral/Atendimentos.svg'
+import Chamados from '../../assets/ImgBarraLateral/Chamados.svg'
+import Consulta from '../../assets/ImgBarraLateral/Consulta.svg'
+import Setores from '../../assets/ImgBarraLateral/Setores.svg'
 
 export const BarraLateral = () => {
     return(
         <nav>
             <section >
                 <div className='logo'>
-                    <img src={logo} alt="Logo" />
+                    <img src={logoPequeno} alt="Logo" />
                 </div>
             
                 <article className='iconRedirection'>

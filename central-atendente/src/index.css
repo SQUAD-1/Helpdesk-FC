@@ -6,7 +6,7 @@
   border:0;
 }
 
-h1 {
+section h1 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -15,4 +15,6 @@ h1 {
 
   color: #E71C35;
 }
+
+
 

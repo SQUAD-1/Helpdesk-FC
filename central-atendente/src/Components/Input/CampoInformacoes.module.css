@@ -1,0 +1,21 @@
+.campoContainer{
+    position: absolute;
+    display: flex;
+    width: 631px;
+    height: 175px;
+    left: 150px;
+    top: 130px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.campoInfo{
+    background: #E5E6E6;
+/* Sombra de input */
+
+    box-shadow: inset 0px 3px 8px -1px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    padding: 5px 5px;
+    width: 150px;
+    margin-top: 5px;
+}

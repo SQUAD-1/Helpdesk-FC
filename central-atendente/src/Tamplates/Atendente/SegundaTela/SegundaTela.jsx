@@ -1,4 +1,4 @@
-import { BarraLateral } from "../../../Components/BarraLateral/BarraPrincipal"
+import { BarraLateral } from '../../../Components/BarraLateral/BarraPrincipal'
 
 import './SegundaTela.css'
 import imgTela from './img/Callcenter-cuate1.svg'
