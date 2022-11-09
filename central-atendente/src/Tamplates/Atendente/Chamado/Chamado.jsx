@@ -1,12 +1,9 @@
-import { BarraLateral } from "../../../Components/BarraLateral/BarraPrincipal"
 import { CampoInformacoes } from "../../../Components/Input/CampoInformacoes"
 import styles from './Chamado.module.css'
 
 export const Chamado = () => {
     return(
         <section>
-
-           <BarraLateral />
 
            <h1 className={styles.tituloTela}>Abrir Chamado</h1>
 
