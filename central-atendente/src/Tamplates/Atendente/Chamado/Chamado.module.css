@@ -1,4 +1,134 @@
-.tituloTela{
+.tituloChamado{
     width: 200px;
     margin-top: 60px;
+    margin-left: 150px;
+}
+
+.containerInfors{
+    margin: 20px 20px 15px 150px;
+}
+
+.InforCpf{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.groupInforsII{
+    display: flex;
+}
+
+.cep{
+    margin-left: 20px;
+}
+
+.endereco{
+    width: 300px;
+}
+
+.groupInforsIII{
+    display: flex;
+    margin-top: 20px;
+}
+
+.selectGroupI{
+    display: flex;
+    margin-left: 150px;
+}
+
+.itens{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.itens img{
+    margin-top: -10px;
+    padding: 20px;
+    margin-left: -30px;
+}
+
+.selectGroupIV{
+    display: flex;
+    margin-left: 150px;
+    margin-top: -10px;
+}
+
+.selectGroupV{
+    display: flex;
+    margin-left: 150px;
+}
+
+.aside{
+    margin-left: 600px;
+    margin-top: -55px;
+}
+
+.asideGroup{
+    display: flex;
+}
+
+.asideGroup img{
+    background: #E5E6E6;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 0px 10px 0px 5px;
+}
+
+.file{
+    width: 35px;
+}
+
+.asideGroup .moveFiles{
+    padding: 0px;
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    margin-top: auto;    
+    margin-bottom: auto;
+}
+
+.descContainer{
+    margin-left: 150px;
+}
+
+.descContainer h3{
+    display: flex;
+}
+
+
+.desc{
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px;   
+    height: 100px; 
+
+    background: #E5E6E6;
+    box-shadow: inset 0px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.obsContainer{
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+.obsContainer h3{
+    display: flex;
+}
+
+
+.obs{
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px;   
+    height: 100px; 
+
+    background: #E5E6E6;
+    box-shadow: inset 0px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin-bottom: 100px;
+}
+
+.pAst{
+    display: flex;
+    color: red;
 }

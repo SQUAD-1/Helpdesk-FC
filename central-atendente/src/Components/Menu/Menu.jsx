@@ -7,7 +7,6 @@ import Atendimentos from '../../assets/ImgBarraLateral/Atendimentos.svg'
 import Chamados from '../../assets/ImgBarraLateral/Chamados.svg'
 import Consulta from '../../assets/ImgBarraLateral/Consulta.svg'
 import Setores from '../../assets/ImgBarraLateral/Setores.svg'
-import { Link } from 'react-router-dom'
 
 export const Menu = () => {
     return(
@@ -19,27 +18,23 @@ export const Menu = () => {
             
                 <article className='iconRedirection'>
                     <div className='Bullet'>
-                        <Link to="/"><img src={inicio} alt="inicio" /></Link>
+                        <img src={inicio} alt="inicio" />
                     </div>
 
                     <div className='Bullet2'>
-                        <Link to="/atendimentos"><img src={Atendimentos} alt="Atendimentos" /> </Link>
-                           
+                        <img src={Atendimentos} alt="Atendimentos" />    
                     </div>
 
                     <div className='Bullet3'>
-                        <Link to="/chamados"><img src={Chamados} alt="Chamados" /></Link>
-                        
+                        <img src={Chamados} alt="Chamados" />
                     </div>
                     
                     <div className='Bullet4'>
-                        <Link to="/consulta"><img src={Consulta} alt="Consulta" />  </Link>
-                                              
+                        <img src={Consulta} alt="Consulta" />                        
                     </div>
 
                     <div className='Bullet4'>
-                        <Link to="/setores"><img src={Setores} alt="Setores" />   </Link>
-                                             
+                        <img src={Setores} alt="Setores" />                        
                     </div>
 
                 </article>
