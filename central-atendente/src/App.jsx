@@ -1,11 +1,13 @@
 import { Menu } from "./Components/Menu/Menu";
-import { Chamado } from "./Tamplates/Atendente/Chamado/Chamado";
+import { AbrirChamado } from "./Tamplates/Atendente/AbrirChamado/AbrirChamado";
+import { AtendimentoChamado } from "./Tamplates/Atendente/AtendimentoChamado/AtendimentoChamado";
 
 export const App = ()=> {
   return (
     <>
       <Menu />
-      <Chamado />
+      <AbrirChamado />
+      {/* <AtendimentoChamado /> */}
     </>
     );
 }

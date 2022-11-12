@@ -6,6 +6,8 @@
 .campoInfo{
     height: 15px;
     background: #E5E6E6;
+    font-size: 13px;
+
 /* Sombra de input */
 
     box-shadow: inset 0px 3px 8px -1px rgba(0, 0, 0, 0.15);

@@ -1,6 +1,6 @@
 import { CampoInformacoes } from "../../../Components/Campos/CampoInformacoes"
 import { Select } from "../../../Components/Select/Select"
-import styles from './Chamado.module.css'
+import styles from './AbrirChamado.module.css'
 
 import tv from '../../../assets/imgItens/tv.svg'
 import arCondicionado from '../../../assets/imgItens/arCondicionado.svg'
@@ -12,7 +12,7 @@ import arquivo2 from '../../../assets/imgItens/arquivo2.svg'
 import arquivoImg from '../../../assets/imgItens/arquivoImg.svg'
 import moveFiles from '../../../assets/imgItens/moveFiles.svg'
 
-export const Chamado = () => {
+export const AbrirChamado = () => {
     return(
         <section>
 

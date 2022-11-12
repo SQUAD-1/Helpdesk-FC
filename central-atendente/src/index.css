@@ -4,16 +4,33 @@
   vertical-align:baseline;
   list-style:none;
   border:0;
-}
-
-section h1 {
   font-family: 'Inter';
   font-style: normal;
+}
+
+h1 {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 37px;
 
   color: #E71C35;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #7AC143;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
 }
 
 
