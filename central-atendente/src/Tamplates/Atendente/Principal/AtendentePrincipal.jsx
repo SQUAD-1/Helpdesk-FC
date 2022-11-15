@@ -5,7 +5,6 @@ export const AtendentePrincipal = () => {
     return(
         <>
             <Dados />
-
             <Estatisticas />
         </>
     )
