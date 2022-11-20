@@ -1,5 +1,5 @@
 import '/Conteudo.css';
-
+import ViewDetails from '../../../../assets/imagens/ViewDetails.svg'
 export const Conteudo = () => {
     return (
         <>
@@ -101,98 +101,8 @@ export const Conteudo = () => {
                                         <td className="font-500">0:00</td>
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
-                                    </tr>       <tr className="linhas">
-                                        <td className="first-td font-500">00000.000-00</td>
-                                        <td className="font-500">Lorem Ipsum</td>
-                                        <td className="font-500">Entrega não...</td>
-                                        <td className="font-500">00.00</td>
-                                        <td className="font-500">0:00</td>
-                                        <td className="font-500">Telefone</td>
-                                        <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
-                                    </tr>       <tr className="linhas">
-                                        <td className="first-td font-500">00000.000-00</td>
-                                        <td className="font-500">Lorem Ipsum</td>
-                                        <td className="font-500">Entrega não...</td>
-                                        <td className="font-500">00.00</td>
-                                        <td className="font-500">0:00</td>
-                                        <td className="font-500">Telefone</td>
-                                        <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
-                                    </tr>       <tr className="linhas">
-                                        <td className="first-td font-500">00000.000-00</td>
-                                        <td className="font-500">Lorem Ipsum</td>
-                                        <td className="font-500">Entrega não...</td>
-                                        <td className="font-500">00.00</td>
-                                        <td className="font-500">0:00</td>
-                                        <td className="font-500">Telefone</td>
-                                        <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""> </img></td>
-                                    </tr>       <tr className="linhas">
-                                        <td className="first-td font-500">00000.000-00</td>
-                                        <td className="font-500">Lorem Ipsum</td>
-                                        <td className="font-500">Entrega não...</td>
-                                        <td className="font-500">00.00</td>
-                                        <td className="font-500">0:00</td>
-                                        <td className="font-500">Telefone</td>
-                                        <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
-                                    </tr>       <tr className="linhas">
-                                        <td className="first-td font-500">00000.000-00</td>
-                                        <td className="font-500">Lorem Ipsum</td>
-                                        <td className="font-500">Entrega não...</td>
-                                        <td className="font-500">00.00</td>
-                                        <td className="font-500">0:00</td>
-                                        <td className="font-500">Telefone</td>
-                                        <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
-                                    </tr>       <tr className="linhas">
-                                        <td className="first-td font-500">00000.000-00</td>
-                                        <td className="font-500">Lorem Ipsum</td>
-                                        <td className="font-500">Entrega não...</td>
-                                        <td className="font-500">00.00</td>
-                                        <td className="font-500">0:00</td>
-                                        <td className="font-500">Telefone</td>
-                                        <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
-                                    </tr>       <tr className="linhas">
-                                        <td className="first-td font-500">00000.000-00</td>
-                                        <td className="font-500">Lorem Ipsum</td>
-                                        <td className="font-500">Entrega não...</td>
-                                        <td className="font-500">00.00</td>
-                                        <td className="font-500">0:00</td>
-                                        <td className="font-500">Telefone</td>
-                                        <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
-                                    </tr>       <tr className="linhas">
-                                        <td className="first-td font-500">00000.000-00</td>
-                                        <td className="font-500">Lorem Ipsum</td>
-                                        <td className="font-500">Entrega não...</td>
-                                        <td className="font-500">00.00</td>
-                                        <td className="font-500">0:00</td>
-                                        <td className="font-500">Telefone</td>
-                                        <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
-                                    </tr>     <tr className="linhas">
-                                        <td className="first-td font-500">00000.000-00</td>
-                                        <td className="font-500">Lorem Ipsum</td>
-                                        <td className="font-500">Entrega não...</td>
-                                        <td className="font-500">00.00</td>
-                                        <td className="font-500">0:00</td>
-                                        <td className="font-500">Telefone</td>
-                                        <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
-                                    </tr>    <tr className="linhas">
-                                        <td className="first-td font-500">00000.000-00</td>
-                                        <td className="font-500">Lorem Ipsum</td>
-                                        <td className="font-500">Entrega não...</td>
-                                        <td className="font-500">00.00</td>
-                                        <td className="font-500">0:00</td>
-                                        <td className="font-500">Telefone</td>
-                                        <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
-                                    </tr>      
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
                                     <tr className="linhas">
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
@@ -201,7 +111,107 @@ export const Conteudo = () => {
                                         <td className="font-500">0:00</td>
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
-                                        <td className="img-td font-500"><img src="images/View Details.svg" alt=""></img></td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
+                                    <tr className="linhas">
+                                        <td className="first-td font-500">00000.000-00</td>
+                                        <td className="font-500">Lorem Ipsum</td>
+                                        <td className="font-500">Entrega não...</td>
+                                        <td className="font-500">00.00</td>
+                                        <td className="font-500">0:00</td>
+                                        <td className="font-500">Telefone</td>
+                                        <td className="font-500">Baixa</td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
+                                    <tr className="linhas">
+                                        <td className="first-td font-500">00000.000-00</td>
+                                        <td className="font-500">Lorem Ipsum</td>
+                                        <td className="font-500">Entrega não...</td>
+                                        <td className="font-500">00.00</td>
+                                        <td className="font-500">0:00</td>
+                                        <td className="font-500">Telefone</td>
+                                        <td className="font-500">Baixa</td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
+                                    <tr className="linhas">
+                                        <td className="first-td font-500">00000.000-00</td>
+                                        <td className="font-500">Lorem Ipsum</td>
+                                        <td className="font-500">Entrega não...</td>
+                                        <td className="font-500">00.00</td>
+                                        <td className="font-500">0:00</td>
+                                        <td className="font-500">Telefone</td>
+                                        <td className="font-500">Baixa</td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
+                                    <tr className="linhas">
+                                        <td className="first-td font-500">00000.000-00</td>
+                                        <td className="font-500">Lorem Ipsum</td>
+                                        <td className="font-500">Entrega não...</td>
+                                        <td className="font-500">00.00</td>
+                                        <td className="font-500">0:00</td>
+                                        <td className="font-500">Telefone</td>
+                                        <td className="font-500">Baixa</td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
+                                    <tr className="linhas">
+                                        <td className="first-td font-500">00000.000-00</td>
+                                        <td className="font-500">Lorem Ipsum</td>
+                                        <td className="font-500">Entrega não...</td>
+                                        <td className="font-500">00.00</td>
+                                        <td className="font-500">0:00</td>
+                                        <td className="font-500">Telefone</td>
+                                        <td className="font-500">Baixa</td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
+                                    <tr className="linhas">
+                                        <td className="first-td font-500">00000.000-00</td>
+                                        <td className="font-500">Lorem Ipsum</td>
+                                        <td className="font-500">Entrega não...</td>
+                                        <td className="font-500">00.00</td>
+                                        <td className="font-500">0:00</td>
+                                        <td className="font-500">Telefone</td>
+                                        <td className="font-500">Baixa</td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
+                                    <tr className="linhas">
+                                        <td className="first-td font-500">00000.000-00</td>
+                                        <td className="font-500">Lorem Ipsum</td>
+                                        <td className="font-500">Entrega não...</td>
+                                        <td className="font-500">00.00</td>
+                                        <td className="font-500">0:00</td>
+                                        <td className="font-500">Telefone</td>
+                                        <td className="font-500">Baixa</td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
+                                    <tr className="linhas">
+                                        <td className="first-td font-500">00000.000-00</td>
+                                        <td className="font-500">Lorem Ipsum</td>
+                                        <td className="font-500">Entrega não...</td>
+                                        <td className="font-500">00.00</td>
+                                        <td className="font-500">0:00</td>
+                                        <td className="font-500">Telefone</td>
+                                        <td className="font-500">Baixa</td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
+                                    <tr className="linhas">
+                                        <td className="first-td font-500">00000.000-00</td>
+                                        <td className="font-500">Lorem Ipsum</td>
+                                        <td className="font-500">Entrega não...</td>
+                                        <td className="font-500">00.00</td>
+                                        <td className="font-500">0:00</td>
+                                        <td className="font-500">Telefone</td>
+                                        <td className="font-500">Baixa</td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
+                                    </tr>
+                                    <tr className="linhas">
+                                        <td className="first-td font-500">00000.000-00</td>
+                                        <td className="font-500">Lorem Ipsum</td>
+                                        <td className="font-500">Entrega não...</td>
+                                        <td className="font-500">00.00</td>
+                                        <td className="font-500">0:00</td>
+                                        <td className="font-500">Telefone</td>
+                                        <td className="font-500">Baixa</td>
+                                        <td className="img-td font-500"><img src={ViewDetails} alt="" /></td>
                                     </tr>
 
                                 </tbody>
