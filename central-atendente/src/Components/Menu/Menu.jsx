@@ -1,4 +1,4 @@
-//import { BrowserRouter, Routes, Route } from "react-router-dom"
+import {Link} from 'react-router-dom'
 import './Menu.css'
 
 import logoPequeno from '../../assets/ImgBarraLateral/logoPequeno.svg'
@@ -13,28 +13,28 @@ export const Menu = () => {
         <nav>
             <section >
                 <div className='logo'>
-                    <img src={logoPequeno} alt="Logo" />
+                    <Link to="/" ><img src={logoPequeno} alt="Logo" /> </Link>                    
                 </div>
             
                 <article className='iconRedirection'>
                     <div className='Bullet'>
-                        <img src={inicio} alt="inicio" />
+                        <Link to="/" ><img src={inicio} alt="inicio" /></Link>                        
                     </div>
 
                     <div className='Bullet2'>
-                        <img src={Atendimentos} alt="Atendimentos" />    
+                        <Link to="/atendimento" ><img src={Atendimentos} alt="Atendimentos" /></Link>                            
                     </div>
 
                     <div className='Bullet3'>
-                        <img src={Chamados} alt="Chamados" />
+                        <Link to="/chamados" ><img src={Chamados} alt="Chamados" /></Link>                        
                     </div>
                     
                     <div className='Bullet4'>
-                        <img src={Consulta} alt="Consulta" />                        
+                        <Link to="/consulta" ><img src={Consulta} alt="Consulta" /> </Link>                                               
                     </div>
 
                     <div className='Bullet4'>
-                        <img src={Setores} alt="Setores" />                        
+                        <Link to="/setores" ><img src={Setores} alt="Setores" /> </Link>                                               
                     </div>
 
                 </article>
