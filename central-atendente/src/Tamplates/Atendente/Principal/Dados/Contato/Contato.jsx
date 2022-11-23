@@ -31,7 +31,7 @@ export const Contato = ({tel, cel, whats, email}) => {
                         <p> {email} </p>
                     </div>
 
-                <div className='lineFinal'></div>
+                <div className='lineFinalContato'></div>
 
                 </div>
             </article>

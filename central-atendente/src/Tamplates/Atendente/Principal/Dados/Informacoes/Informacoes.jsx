@@ -1,12 +1,12 @@
-import './Informacoes.css'
+import styles from './Informacoes.css'
 
 export const Informacoes = ({nome, nomeCompleto, dataNasciemento, cpf, rg}) => {
     return(
         <section>
-            <div> <h1>{nome}</h1> </div>
+            <div> <h1 className={styles.h1}>{nome}</h1> </div>
 
             <article className="inforacoesGerais">
-                <h2>Informações Gerais</h2>
+                <h2 className={styles.h2}>Informações Gerais</h2>
 
                 <div className="nomeNascimento">
                     <div className="nomeCompleto">
