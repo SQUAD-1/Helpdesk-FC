@@ -18,7 +18,7 @@
 
 .containerEstatisticas{
     position: relative;
-    width: 150px;
+    width: 20%;
     left: 700px;
     top: 130px;
 
@@ -30,11 +30,21 @@
     color: #000000;
 }
 
-.comprasFeitas{
-    padding: 2px 0;
+.containerEstatisticas h2{
+    color: #000000;
 }
 
-.ligacao{
+.containerEstatisticas h2 label{
+    font-size: 25px;
+}
+
+.comprasEstatistica{
+    padding: 2px 0;
+    color: #000000;
+}
+
+.ligacaoEstatistica{
     font-size: 8px;
     padding: 2px 0;
+    color: #000000;
 }

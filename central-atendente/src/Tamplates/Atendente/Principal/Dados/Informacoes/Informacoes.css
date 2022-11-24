@@ -58,6 +58,22 @@ article h3{
     color: #000000;
 }
 
+.consulta{
+    position: absolute;
+    margin-left: 150px;
+    font-weight: 600;
+    font-size: large;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.consulta b{
+    font-size: 23px;
+}
+
 .nomeNascimento{
     position: absolute;
     display: flex;

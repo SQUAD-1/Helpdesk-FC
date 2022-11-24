@@ -1,7 +1,7 @@
 nav{
     position: absolute;
-    width: 50px;
-    height: 580px;
+    width: 5%;
+    height: 110%;
     padding: 10px;
     top: 0%;
     bottom: 0%;
@@ -14,7 +14,7 @@ nav{
 }
 
 nav ul li img{
-    width: 70px;
+    width: 112%;
 }
 
 nav ul{
@@ -32,7 +32,7 @@ nav ul li{
 
 .foto{
     margin-top: 70px;
-    width: 40px;
+    width: 70%;
     margin-left: 15px;
 }
 

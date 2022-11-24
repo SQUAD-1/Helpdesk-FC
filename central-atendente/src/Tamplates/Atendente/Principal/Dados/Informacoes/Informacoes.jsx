@@ -3,6 +3,8 @@ import styles from './Informacoes.css'
 export const Informacoes = ({nome, nomeCompleto, dataNasciemento, cpf, rg}) => {
     return(
         <section>
+            <label className='consulta'> <b>&lt;</b> Consulta</label>
+
             <div> <h1 className={styles.h1}>{nome}</h1> </div>
 
             <article className="inforacoesGerais">

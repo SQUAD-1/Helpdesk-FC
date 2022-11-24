@@ -1,5 +1,6 @@
 import { Menu } from "./Components/Menu/Menu";
 import { AtendentePrincipal } from "./Tamplates/Atendente/Principal/AtendentePrincipal";
+import {SideBarAtendente} from "./Components/sideBarAtendente/sideBarAtendente";
 
 export const App = () => {
   return (
@@ -7,6 +8,7 @@ export const App = () => {
 
         <Menu />
         <AtendentePrincipal />
+        <SideBarAtendente />
 
       </>
     );
