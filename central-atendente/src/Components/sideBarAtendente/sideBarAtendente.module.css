@@ -1,11 +1,145 @@
 .container{
     position: absolute;
-    margin-left: 70%;
-    width: 30%;
+    margin-left: 80%;
+    width: 20%;
+    height: 120%;
     float: right;
+    top: 0px;
 
     background: #F6F7F7;
     /* Sombra Barra */
 
-box-shadow: 0px 10px 19px rgba(178, 179, 181, 0.7);
+    box-shadow: 0px 10px 19px rgba(178, 179, 181, 0.7);
+}
+
+.hours{
+    text-align: center;
+    margin-top: 20%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.date{
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5%;
+    line-height: 15px;
+}
+
+.lineTempo{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 1px solid #7AC143;
+    border-radius: 10px;
+
+    margin-top: 50%;
+    padding: 15px;
+}
+
+.lineTempo ul li{
+    margin-top: 5px;
+}
+
+.botao{
+    position: relative;
+    margin-left: 190px;
+    top: -45px;
+    width: 25px;
+}
+
+.click{
+    position: relative;
+    width: 100%;
+    display: none;
+}
+
+.iconGreen{
+    position: absolute;
+    background: #8ECA5F;
+    width: auto;
+}
+
+.tituloLinhaTempo{
+    position: relative;
+    color: #000;
+    font-size: 20px;
+    line-height: 10px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+}
+
+.chamada{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 1px solid #7AC143;
+    border-radius: 10px;
+
+    margin-top: 10%;
+    padding: 15px;
+}
+
+.chamada ul li{
+    margin-top: 5px;
+}
+
+.botaoChamada{
+    position: relative;
+    margin-left: 190px;
+    top: -45px;
+    width: 25px;
+}
+
+.clickChamada{
+    position: relative;
+    width: 100%;
+    display: none;
+}
+
+.tituloChamada{
+    position: relative;
+    color: #000;
+    font-size: 20px;
+    line-height: 10px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+}
+
+.cronometro{
+    position: relative;
+    color: #000;
+    font-size: 35px;
+    line-height: 10px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+}
+
+.tempGrav{
+    display: flex;
+}
+
+.tempGrav p{
+    display: flex;
+    margin-right: 30px;
+    margin-top: -5px;
+}
+
+.tempGrav p img{
+    width: 10px;
+    border-radius: 100%;
+    margin-top: -20px;
+    margin-right: 5px;
 }
