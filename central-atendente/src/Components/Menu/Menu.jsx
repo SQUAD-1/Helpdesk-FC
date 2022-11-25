@@ -7,21 +7,22 @@ import Chamados from '../../assets/ImgBarraLateral/Chamados.svg'
 import Consulta from '../../assets/ImgBarraLateral/Consulta.svg'
 import Setores from '../../assets/ImgBarraLateral/Setores.svg'
 import fotoAtendente from '../../assets/ImgBarraLateral/fotoAtendente.svg'
+import { Link } from 'react-router-dom';
 
 export const Menu = () => {
     return(
         <nav>
             <img className={styles.logo} src={logoPequeno} alt="Logo Ferreira costa" />
             <ul>
-                <li><img src={inicio} alt="Inicio" /></li>
+                <li><Link to="/"><img src={inicio} alt="Inicio" /></Link></li>
 
-                <li><img src={Atendimentos} alt="Atendimentos" /></li>
+                <li><Link to='Atendimentos'><img src={Atendimentos} alt="Atendimentos" /></Link></li>
 
-                <li><img src={Chamados} alt="Chamados" /></li>
+                <li><Link to='/Chamados'><img src={Chamados} alt="Chamados" /></Link></li>
 
-                <li><img src={Consulta} alt="Consulta" /></li>
+                <li><Link to='/Consulta'><img src={Consulta} alt="Consulta" /></Link></li>
 
-                <li><img src={Setores} alt="Setores" /></li>
+                <li><Link to='/Setores'><img src={Setores} alt="Setores" /></Link></li>
 
                 <li><img className={styles.foto} src={fotoAtendente} alt="Foto do Atendente" /></li>
             </ul>

@@ -11,12 +11,13 @@ import arquivo from '../../../assets/imgItens/arquivo.svg'
 import arquivo2 from '../../../assets/imgItens/arquivo2.svg'
 import arquivoImg from '../../../assets/imgItens/arquivoImg.svg'
 import moveFiles from '../../../assets/imgItens/moveFiles.svg'
+import { Menu } from "../../../Components/Menu/Menu"
 
 export const AtendimentoChamado = () => {
-    return(
+    return (
         <section>
-
-           <h1 className={styles.tituloChamado}>Abrir Atendimento</h1>
+            <Menu />
+            <h1 className={styles.tituloChamado}>Abrir Atendimento</h1>
 
             <div className={styles.containerInfors}>
 
@@ -63,14 +64,14 @@ export const AtendimentoChamado = () => {
 
             <aside className={styles.aside}>
                 <h3>Anexos</h3>
-                    <div className={styles.asideGroup}>
-                        <img className={styles.file} src={file} alt="File" />
-                        <img className={styles.arquivo} src={arquivo} alt="Arquivo" />
-                        <img className={styles.arquivo2} src={arquivo2} alt="Arquivo Dois" />
-                        <img className={styles.arquivoImg} src={arquivoImg} alt="Aquivo Imagem" />
-                        <img className={styles.moveFiles} src={moveFiles} alt="Retornar Imagem" /> {/*Isso Será um Botão */}
+                <div className={styles.asideGroup}>
+                    <img className={styles.file} src={file} alt="File" />
+                    <img className={styles.arquivo} src={arquivo} alt="Arquivo" />
+                    <img className={styles.arquivo2} src={arquivo2} alt="Arquivo Dois" />
+                    <img className={styles.arquivoImg} src={arquivoImg} alt="Aquivo Imagem" />
+                    <img className={styles.moveFiles} src={moveFiles} alt="Retornar Imagem" /> {/*Isso Será um Botão */}
 
-                    </div>
+                </div>
             </aside>
 
             <article className={styles.descContainer}>
