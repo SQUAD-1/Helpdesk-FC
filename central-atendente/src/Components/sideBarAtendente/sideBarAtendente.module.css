@@ -2,7 +2,7 @@
     position: absolute;
     margin-left: 80%;
     width: 20%;
-    height: 120%;
+    height: 160%;
     float: right;
     top: 0px;
 
@@ -142,4 +142,61 @@
     border-radius: 100%;
     margin-top: -20px;
     margin-right: 5px;
+}
+
+.numTelefone{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.numero{
+    position: relative;
+    color: #000;
+    line-height: 10px;
+    font-size: 18px;
+    text-indent: 10px;
+    left: 0px;
+    top: 0px;
+}
+
+.quemLiga{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.loja{
+    position: relative;
+    color: #000;
+    line-height: 10px;
+    font-size: 18px;
+    text-indent: 10px;
+    left: 0px;
+    top: 0px;
+}
+
+.iconsLigacao ul{
+    display: flex;
+    gap: 15px;
+}
+
+.desligar{
+    margin-left: 35%;
+    top: -10px;
+}
+
+.iconsAdd{
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    
+    width: 70%;
+    margin: 20px auto;
+}
+
+.iconsAdd ul{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }

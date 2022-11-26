@@ -2,16 +2,33 @@ import styles from './sideBarAtendente.module.css'
 
 import back from '../../assets/imgSideBar/Back.svg'
 import botaoVermelho from '../../assets/imgSideBar/botaoVermelho.svg'
+import mute from '../../assets/imgSideBar/mute.svg'
+import transferCall from '../../assets/imgSideBar/trasferCall.svg'
+import altoFalante from '../../assets/imgSideBar/altoFalante.svg'
+import desligar from '../../assets/imgSideBar/desligar.svg'
+import Chat from '../../assets/imgSideBar/Chat.svg'
+import Mail from '../../assets/imgSideBar/Mail.svg'
+import Phone from '../../assets/imgSideBar/Phone.svg'
+import congelar from '../../assets/imgSideBar/congelar.svg'
+import { useEffect } from 'react'
+import { useState } from 'react'
 
 export const SideBarAtendente = () => {
 
-    const now = new Date();
-    const day = now.getDay();
-    const year = now.getFullYear();
-    const hours = now.getHours();
-    const minutes = now.getMinutes();
+    const [day, setDay] = useState('');
+    const [year, setYear] = useState('');
+    const [hours, setHours] = useState('');
+    const [minutes, setMinutes] = useState('');
+    const [month, setMonth] = useState('');
 
-    const month = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "julho", "Agosto", "Setembro","Outubro", "Novembro", "Dezembro"][(now.getMonth())]
+    useEffect(()=>{
+        const now = new Date();
+        setDay(...day, day + now.getDay())
+        setYear(...day, year + now.getFullYear())
+        setHours(...hours, hours + now.getHours())
+        setMinutes(...minutes, minutes + now.getMinutes())
+        setMonth(...month, month + ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "julho", "Agosto", "Setembro","Outubro", "Novembro", "Dezembro"][(now.getMonth())])
+    }, [])
 
 
     return(
@@ -56,7 +73,34 @@ export const SideBarAtendente = () => {
                     <p> <img src={botaoVermelho} alt="Botão Vemerlho" /> gravando</p>
                 </div>
 
-                
+                <div className={styles.infoLigacao}>
+                    <p className={styles.numTelefone}>Nº de telefone</p>
+                    <h1 className={styles.numero}>+55 (81) 9 9999-9999</h1>
+                </div>
+
+                <div className={styles.info}>
+                    <p className={styles.quemLiga}>Ligou Para</p>
+                    <h1 className={styles.loja}>Ferreira Costa Imbiribeira</h1>
+                </div>
+
+                <div className={styles.iconsLigacao}>
+                    <ul>
+                        <li><img src={mute} alt="Mute" /></li>
+                        <li><img src={transferCall} alt="Transferir Ligação" /></li>
+                        <li><img src={altoFalante} alt="Alto Falante" /></li>
+                        <li className={styles.desligar}><img src={desligar} alt="Desligar" /></li>
+                    </ul>
+                </div>                
+
+            </div>
+
+            <div className={styles.iconsAdd}>
+                <ul>
+                    <li><img src={Chat} alt="Chat" /></li>
+                    <li><img src={Mail} alt="Email" /></li>
+                    <li><img src={Phone} alt="Telefone" /></li>
+                    <li><img src={congelar} alt="Congelar" /></li>
+                </ul>
             </div>
         </section>
     )
