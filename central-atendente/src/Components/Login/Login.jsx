@@ -8,11 +8,11 @@ export const Login = () => {
         <>
             <div className="sidebar-top">
                 <div className="ferreiracosta">
-                    <img src={FerreiraCosta} alt=""/>
+                    <img src={FerreiraCosta} alt="" />
                 </div>
                 <div className="containerimagem">
-                    <img src={MaskGroup} alt=""/>
-                        <span>Página Segura</span>
+                    <img src={MaskGroup} alt="" />
+                    <span>Página Segura</span>
                 </div>
             </div>
 
@@ -36,16 +36,15 @@ export const Login = () => {
 
                         <div className="box">
                             <input type="password" required placeholder="Digite sua senha" className="pass" />
-                                <i className="bi bi-eye-slash-fill icon"></i>
+                            <i className="bi bi-eye-slash-fill icon"></i>
                         </div>
 
                         <span className="forgot">Esqueci a senha</span>
-                        
+
                         <Link to="/TelaInicial"> <button>Entrar</button> </Link>
                     </div>
                 </div>
             </div>
-            <script src="../../login-scripts"></script>
         </>
     )
 }

@@ -1,11 +1,11 @@
-import './ConteudoConsulta.css'
+import './Consulta.css'
 
-import lupa from '../../../assets/imagens/lupa.svg'
-import product from '../../../assets/imagens/product.svg'
-import MaleUser from '../../../assets/imagens/MaleUser.svg'
-import TV from '../../../assets/imagens/TV.jpg'
+import lupa from '../../assets/imagens/lupa.svg'
+import product from '../../assets/imagens/product.svg'
+import MaleUser from '../../assets/imagens/MaleUser.svg'
+import TV from '../../assets/imagens/TV.jpg'
 
-export const ConteudoConsulta = () => {
+export const Consulta = () => {
     return (
         <>
             <div className="container-Atend">
