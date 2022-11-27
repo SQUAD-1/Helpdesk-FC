@@ -12,11 +12,11 @@ import { Link } from 'react-router-dom';
 export const Menu = () => {
     return(
         <nav>
-            <img className={styles.logo} src={logoPequeno} alt="Logo Ferreira costa" />
+        <img className={styles.logo} src={logoPequeno} alt="Logo Ferreira costa" />
             <ul>
-                <li><Link to="/TelaInicial"><img src={inicio} alt="Inicio" /></Link></li>
+                <li><Link to='/TelaInicial'><img src={inicio} alt="Inicio" /></Link></li>
 
-                <li><Link to="/Cliente"><img src={Atendimentos} alt="Atendimentos" /></Link></li>
+                <li><Link to='/Cliente'><img src={Atendimentos} alt="Atendimentos" /></Link></li>
 
                 <li><Link to='/Chamados'><img src={Chamados} alt="Chamados" /></Link></li>
 

@@ -4,6 +4,8 @@ import { TelaInicialAtendente } from "./Templates/Atendente/TelaInicialAtendente
 import { Login } from "./Components/Login/Login";
 import { Consulta } from "./Components/Consulta/Consulta";
 import { ListaChamados } from "../src/Components/Chamados/ListaChamados";
+import { ChamadosAtendente } from "./Templates/Atendente/ChamadosAtendente/ChamadosAtendente";
+import { ConsultaAtendente } from "./Templates/Atendente/ConsultaAtendente/ConsultaAtendente";
 
 export const App = () => {
   return (
@@ -13,8 +15,8 @@ export const App = () => {
           <Route path='/' element={<Login />} />
           <Route path="/TelaInicial" element={<TelaInicialAtendente />} />
           <Route path="/Cliente" element={<Cliente />} />
-          <Route path="/Consulta" element={<Consulta />} />
-          <Route path="/Chamados" element={<ListaChamados />} />
+          <Route path="/Consulta" element={<ConsultaAtendente />} />
+          <Route path="/Chamados" element={<ChamadosAtendente />} />
         </Routes>
       </BrowserRouter>
     </>

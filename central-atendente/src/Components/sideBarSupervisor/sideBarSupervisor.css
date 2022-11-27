@@ -1,0 +1,222 @@
+.desconect:hover {
+	cursor: pointer;
+	color: #E71C35;
+}
+
+.transferir:hover *,
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+.icons {
+	font-size: 30px;
+	color: black;
+}
+
+.icones {
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+
+}
+
+.transferir:hover {
+	cursor: pointer;
+	color: #5d9234;
+}
+
+.atendentes,
+.inicio {
+	font-size: 37px;
+	color: black;
+}
+
+.checked {
+	background-color: #E71C35;
+}
+
+.checked>i,
+.checked>label {
+	color: white;
+}
+
+.label {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Inter';
+	text-align: left;
+	font-size: 10px;
+	position: relative;
+	top: -10px;
+}
+
+.container-right {
+	display: flex !important;
+	flex-wrap: wrap;
+	flex-flow: column;
+	align-content: space-between;
+	justify-content: space-between;
+}
+
+.sidebar-right {
+	height: 100vh;
+	padding: 15px;
+	display: flex !important;
+	background: #F6F7F7;
+	/* Sombra Barra */
+	box-shadow: 0px 10px 19px rgba(178, 179, 181, 0.7);
+	border-radius: 6px;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+}
+
+.todos {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#tod {
+	margin: 4px 10px 0 10px;
+}
+
+#audio {
+	float: left;
+	margin-right: 10px;
+}
+
+.disnone {
+	display: none;
+}
+
+
+.timedate {
+	text-align: center;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+
+}
+
+#horario {
+	margin-top: 40px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+}
+
+
+
+.balls {
+	display: flex;
+}
+
+
+
+.sizig-sidebar-right {
+	flex-direction: column !important;
+	flex-shrink: 0 !important;
+	width: 15rem;
+	justify-content: space-around;
+	float: right;
+}
+
+.check {
+	position: absolute;
+	left: 18px;
+
+	cursor: pointer;
+	width: 190px;
+	height: 25px;
+	margin-top: 5px;
+	opacity: 0;
+
+}
+
+.chamada,
+.time {
+	border: 1px solid #7AC143;
+	border-radius: 6px;
+	font-family: 'Inter', sans-serif;
+	padding: 0 11px !important;
+	width: 192px;
+	margin: 20px 0;
+}
+
+
+.mensagens {
+	border: 1px solid #E71C35;
+	width: 192px;
+	padding: 10px 0;
+	border-radius: 6px;
+	margin-top: 22px;
+
+}
+
+.call-img {
+	width: 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+}
+
+.inline {
+	display: inline-block;
+}
+
+.gra {
+	display: flex;
+}
+
+.horas {
+	font-family: 'Inter';
+	font-size: 20px;
+	width: 10px;
+}
+
+.hour {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#gravando {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #E71C35;
+	margin: 0 2px;
+	display: inline-block;
+}
+
+.text {
+	font-size: 13px;
+	color: black !important;
+
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-beetwen {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
