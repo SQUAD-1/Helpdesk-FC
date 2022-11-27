@@ -1,6 +1,6 @@
 import { CampoInformacoes } from "../../../Components/Campos/CampoInformacoes"
 import { Select } from "../../../Components/Select/Select"
-import styles from './AtendimentoChamado.module.css'
+import styles from './AbrirAtendimento.module.css'
 
 import tv from '../../../assets/imgItens/tv.svg'
 import arCondicionado from '../../../assets/imgItens/arCondicionado.svg'
