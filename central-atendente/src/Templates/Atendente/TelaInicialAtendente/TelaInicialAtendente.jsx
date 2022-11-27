@@ -3,6 +3,7 @@ import { Menu } from '../../../Components/Menu/Menu'
 import { SideBarAtendente } from '../../../Components/sideBarAtendente/sideBarAtendente'
 import Callcentercuate from '../../../assets/imagens/Callcentercuate.svg'
 import Component20 from '../../../assets/imagens/Component20.svg'
+import { MenuSupervisor } from '../../../Components/Menu/MenuSupervisor'
 
 
 export const SegundaTela = ({nome}) => {

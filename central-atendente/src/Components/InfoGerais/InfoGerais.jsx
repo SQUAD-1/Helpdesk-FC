@@ -1,12 +1,12 @@
 import './InfoGerais.css';
 
-export const InfoGerais = ({ detalhe, conclusao, ConteudoDetalhe, ConteudoConclusao1, ConteudoConclusao2}) => {
+export const InfoGerais = ({ detalhe, conclusao, ConteudoDetalhe, ConteudoConclusao1, ConteudoConclusao2, ItemAdicional, DescricaoAdicional}) => {
     return (
         <>
             <div className="Informacoes">
                 <div className="conteudo-esquerda">
                     <div className="primeiro-item">
-                        <div className="produto">
+                        <div className="item">
                             <h3>Smart TV LED 50" LG 4K/Ultra HD 50UQ8050PSB...</h3>
                         </div>
                         <div className="itens-pedido">
@@ -18,7 +18,7 @@ export const InfoGerais = ({ detalhe, conclusao, ConteudoDetalhe, ConteudoConclu
                         </div>
                     </div>
                     <div className="segundo-item">
-                        <div className="produto">
+                        <div className="item">
                             <h3>Geladeira Refrigerador Consul Frost Free Duplex 410L...</h3>
                         </div>
                         <div className="itens-pedido">

@@ -27,7 +27,7 @@ body {
 	size: 12px;
 }
 
-.login .astesrisco{
+.login .asterisco{
 	color: red;
 }
 
@@ -45,7 +45,7 @@ body {
     justify-content:space-between;
 }
 
-.sidebar-left span{
+.sidebar-top span{
 	margin-top: 7px;
 	margin-left: 3px;
 	font-family:Inter;
@@ -57,8 +57,8 @@ body {
 
 .telalogin{
 	position: absolute;
-	top: 50%;
-	left: 47%;
+	top: 60%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 400px;
 	height: 420px;

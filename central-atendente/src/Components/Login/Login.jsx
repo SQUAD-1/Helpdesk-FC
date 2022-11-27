@@ -6,40 +6,40 @@ import { Link } from 'react-router-dom';
 export const Login = () => {
     return (
         <>
-            <div class="sidebar-top">
-                <div class="ferreiracosta">
+            <div className="sidebar-top">
+                <div className="ferreiracosta">
                     <img src={FerreiraCosta} alt=""/>
                 </div>
-                <div class="containerimagem">
+                <div className="containerimagem">
                     <img src={MaskGroup} alt=""/>
                         <span>Página Segura</span>
                 </div>
             </div>
 
-            <div class="telalogin">
+            <div className="telalogin">
                 <h1>Seja bem vindo(a)!</h1>
-                <div class="containterlogin">
+                <div className="containterlogin">
 
-                    <div class="cadastro">
-                        <div class="login">
+                    <div className="cadastro">
+                        <div className="login">
                             <span>Email</span>
-                            <span class="astesrisco">*</span>
+                            <span className="asterisco">*</span>
                         </div>
                         <input type="email" required placeholder="Digite seu email" />
                     </div>
 
-                    <div class="cadastro">
-                        <div class="login">
+                    <div className="cadastro">
+                        <div className="login">
                             <span>Senha</span>
-                            <span class="astesrisco">*</span>
+                            <span className="asterisco">*</span>
                         </div>
 
-                        <div class="box">
-                            <input type="password" required placeholder="Digite sua senha" class="pass" />
-                                <i class="bi bi-eye-slash-fill icon"></i>
+                        <div className="box">
+                            <input type="password" required placeholder="Digite sua senha" className="pass" />
+                                <i className="bi bi-eye-slash-fill icon"></i>
                         </div>
 
-                        <span class="forgot">Esqueci a senha</span>
+                        <span className="forgot">Esqueci a senha</span>
                         
                         <Link to="/TelaInicialAtendente"> <button>Entrar</button> </Link>
                     </div>

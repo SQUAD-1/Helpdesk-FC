@@ -1,4 +1,4 @@
-import 'Atendentes.css';
+import './Atendentes.css';
 
 import imgperfil from '../../../../assets/imagens/atendimentos/imgperfil.svg'
 import Enter from '../../../../assets/imagens/atendimentos/Enter.svg'
@@ -8,7 +8,7 @@ export const Atendentes = () => {
     return (
         <>
             <div className="container-Atend">
-                <div id="atendimento">
+                <div className="atendimento">
                     <div>
                         <h1 className="usuario">Lista de Atendentes</h1>
                     </div>

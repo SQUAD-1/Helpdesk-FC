@@ -13,9 +13,10 @@
     width: 35%;
 }
 
-.produto h3 {
+.item h3 {
     font-size: 15px;
     font-weight: 650;
+    font: Inter;
 }
 
 .segundo-item {
