@@ -6,7 +6,7 @@ import Component20 from '../../../assets/imagens/Component20.svg'
 import { MenuSupervisor } from '../../../Components/Menu/MenuSupervisor'
 
 
-export const SegundaTela = ({nome}) => {
+export const TelaInicialAtendente = ({nome}) => {
     return(
         <section>
             <Menu />

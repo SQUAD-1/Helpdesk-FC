@@ -14,9 +14,9 @@ export const Menu = () => {
         <nav>
             <img className={styles.logo} src={logoPequeno} alt="Logo Ferreira costa" />
             <ul>
-                <li><Link to="/"><img src={inicio} alt="Inicio" /></Link></li>
+                <li><Link to="/TelaInicial"><img src={inicio} alt="Inicio" /></Link></li>
 
-                <li><Link to='Atendimentos'><img src={Atendimentos} alt="Atendimentos" /></Link></li>
+                <li><Link to="/Cliente"><img src={Atendimentos} alt="Atendimentos" /></Link></li>
 
                 <li><Link to='/Chamados'><img src={Chamados} alt="Chamados" /></Link></li>
 

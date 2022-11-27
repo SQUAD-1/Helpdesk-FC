@@ -1,8 +1,9 @@
 import { Cliente } from "./Templates/Atendente/Cliente/Cliente";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { SegundaTela } from "./Templates/Atendente/TelaInicialAtendente/TelaInicialAtendente";
+import { TelaInicialAtendente } from "./Templates/Atendente/TelaInicialAtendente/TelaInicialAtendente";
 import { Login } from "./Components/Login/Login";
 import { TelaAtendimento } from "./Templates/Atendente/TelaAtendimento/TelaAtendimento";
+import { Consulta } from "./Templates/Consulta/Consulta";
 
 export const App = () => {
   return (
@@ -10,10 +11,11 @@ export const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Login />} />
-          <Route path='/TelaInicialAtendente' element={<SegundaTela />} />
-          <Route path='/Atendimentos' element={<Cliente />} />
+          <Route path="/TelaInicial" element={<TelaInicialAtendente />} />
+          <Route path="/Cliente" element={<Cliente />} />
+          <Route path="/Consulta" element={<Consulta />} />
         </Routes>
-      </BrowserRouter>*
+      </BrowserRouter>
     </>
   );
 }

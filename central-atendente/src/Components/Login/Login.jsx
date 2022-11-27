@@ -41,7 +41,7 @@ export const Login = () => {
 
                         <span className="forgot">Esqueci a senha</span>
                         
-                        <Link to="/TelaInicialAtendente"> <button>Entrar</button> </Link>
+                        <Link to="/TelaInicial"> <button>Entrar</button> </Link>
                     </div>
                 </div>
             </div>

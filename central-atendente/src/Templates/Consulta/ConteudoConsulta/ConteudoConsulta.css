@@ -1,0 +1,232 @@
+.usuario{
+    margin-bottom: 40px;
+	height: 40px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	color: #E71C35;
+}
+
+
+#atendimento{
+    position: absolute;
+	top: 10%;
+	left: 45%;
+	transform: translate(-50%,0);
+
+}
+
+
+#atendimento1{
+	width: 70vw;
+	
+}
+
+
+.sidebar-left1{
+	position: relative;
+    display: block;
+	margin: 15px;
+    text-align: center;
+}
+
+
+.font-call{
+	font-family: 'Inter';
+	font-size: 14px;
+	line-height: 18px;
+	text-align: left;
+	font-weight:bold;
+}
+
+
+.font-600-14{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	color: #000000;
+}
+.font-600-15{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+
+	color: #000000;
+}
+
+.container-topo{
+	
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: start;
+	margin-block-end: 50px;
+	
+}
+.container-icons{
+	
+	display: flex;
+	margin-left: 35px;
+	justify-content: space-around;
+	align-items: center;
+	
+	
+}
+
+
+input[type="text"] {
+	width: 708px;
+	height: 40px;
+	border: 1px solid #7AC143;
+	border-radius: 6px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 0.3s;
+	font-family: 'Inter',sans-serif;
+  }
+  
+ 
+  
+  .inputWithIcon input[type="text"] {
+	padding-left: 40px;
+  }
+  
+  .inputWithIcon {
+	position: relative;
+  }
+  
+  .inputWithIcon img {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	padding: 9px 8px;
+	color: #aaa;
+	transition: 0.3s;
+  }
+
+  .botao{
+	display: flex;
+	align-items: center;
+	
+  }
+  
+  #chk {
+    display: none;
+  }
+  
+  .switch {
+    position: relative;
+    background-color: #74B740;
+    width: 89px;
+    height: 29px;
+    border-radius: 54px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .slider {
+    position: absolute;
+    background-color: #8ECA5F;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    transition: all .5s ease-in-out;
+  }
+
+  
+  #chk:checked ~ .switch {
+    background-color: #fe0000;
+	
+	
+  }
+
+   
+  #chk:checked ~ .switch .slider {
+	background-color: #fe5e5e;
+    transform: translateX(55px);
+	
+  }
+.icones{
+	width: 30px;
+	height: 30px;
+}
+
+.box1{
+	width: 200px;
+	height: 149px;
+	border: 1px solid #7AC143;
+	border-radius: 6px;
+	margin-block-end: -10px;
+	padding: 5px;
+	display: flex;
+	
+}
+.box2{
+	width: 200px;
+	height: 95px;
+	background-color: #8ECA5F;
+	border: 1px solid #7AC143;
+	border-radius: 6px;
+	padding: 3px;
+
+
+}
+
+.box2 h1{
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16.94px;
+	color: #FFFFFF;
+	margin-block-end: 8px;
+	margin-left: 3px;
+}
+.box2 p{
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16.94px;
+	color: #FFFFFF;
+	margin-left: 3px;
+}
+.box1 img{
+	width: 200px;
+	height: 135px;
+	padding: 5px;
+	display: flex;
+	
+}
+.Tela-Itens{
+	margin-right:1vw ;
+	margin-bottom: 1vh;
+}
+
+.resultado{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.resultado:hover{
+	transform: 1s;
+}
+
+.d-none{
+	display: none;
+}
+
+.m-14{
+	margin:14px 0px;
+}
