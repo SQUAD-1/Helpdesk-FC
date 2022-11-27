@@ -1,0 +1,78 @@
+.contato{
+    position: absolute;
+
+    height: 175px;
+    left: 150px;
+    top: 180px;
+}
+
+.contato h2{
+    position: absolute;
+    width: 226px;
+    height: 29px;
+    margin-top: 180px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #7AC143;
+}
+
+article p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #4F5256;
+}
+
+article h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.telCelWhats{
+    position: absolute;
+    display: flex;
+    width: 631px;
+    height: 175px;
+    top: 200px;
+}
+
+.cel{
+    margin-left: 50px;
+}
+
+.whats{
+    margin-left: 50px;
+}
+
+.email{
+    position: absolute;
+    width: 631px;
+    height: 175px;
+    margin-top: 270px;
+}
+
+.lineFinalContato{
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 0px;
+    margin-top: 20px;
+    
+
+    border: 1px solid #DEF0D0;
+}

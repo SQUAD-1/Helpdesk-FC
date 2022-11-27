@@ -1,4 +1,4 @@
-section h1{
+.h1{
     /* Luiz Motta */
     position: absolute;
     width: 163px;
@@ -16,7 +16,7 @@ section h1{
     color: #E71C35;
 }
 
-article h2{
+.h2{
     position: absolute;
     width: 226px;
     height: 29px;
@@ -99,7 +99,8 @@ article h3{
     width: 500px;
     height: 0px;
     left: 0px;
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 10px;
 
     border: 1px solid #DEF0D0;
 }

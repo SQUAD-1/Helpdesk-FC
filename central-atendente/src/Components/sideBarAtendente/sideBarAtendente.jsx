@@ -24,11 +24,11 @@ export const SideBarAtendente = () => {
     useEffect(()=>{
         const now = new Date();
         setDay(...day, day + now.getDay())
-        setYear(...day, year + now.getFullYear())
+        setYear(...year, year + now.getFullYear())
         setHours(...hours, hours + now.getHours())
         setMinutes(...minutes, minutes + now.getMinutes())
         setMonth(...month, month + ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "julho", "Agosto", "Setembro","Outubro", "Novembro", "Dezembro"][(now.getMonth())])
-    }, [])
+    }, [day, year, hours, minutes, month])
 
 
     return(
