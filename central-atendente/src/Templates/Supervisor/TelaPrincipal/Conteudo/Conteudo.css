@@ -72,7 +72,7 @@ li {
     padding: 0.9rem;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-image:url(images/calendario.png);
+	background-image:url(/central-atendente/src/assets/imagens/calendario.png);
 }
 
 .graficos{

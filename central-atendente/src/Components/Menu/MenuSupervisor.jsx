@@ -6,9 +6,9 @@ import Atendimentos from '../../assets/ImgBarraLateral/Atendimentos.svg'
 import Chamados from '../../assets/ImgBarraLateral/Chamados.svg'
 import Consulta from '../../assets/ImgBarraLateral/Consulta.svg'
 import Setores from '../../assets/ImgBarraLateral/Setores.svg'
-import Indicadores from '../../assets/ImgBarraLateral/Indicadores.svg'
+import indicadores from '../../assets/imagens/indicadores.png'
 import fotoAtendente from '../../assets/ImgBarraLateral/fotoAtendente.svg'
-import Atendentes from '../../assets/ImgBarraLateral/Atendentes.svg'
+import atendentes from '../../assets/imagens/atendentes.png'
 import { Link } from 'react-router-dom';
 
 export const MenuSupervisor = () => {
@@ -18,7 +18,7 @@ export const MenuSupervisor = () => {
             <ul>
                 <li><Link to='/'><img src={inicio} alt="Inicio" /></Link></li>
 
-                <li><Link to="/Atendentes"><img src={Atendentes} alt="" /></Link></li>
+                <li><Link to="/Atendentes"><img src={atendentes} alt="" /></Link></li>
 
                 <li><Link to='Atendimentos'><img src={Atendimentos} alt="Atendimentos" /></Link></li>
 
@@ -26,7 +26,7 @@ export const MenuSupervisor = () => {
 
                 <li><Link to='/Consulta'><img src={Consulta} alt="Consulta" /></Link></li>
 
-                <li><Link to='./Indicadores'><img src={Indicadores}/></Link></li>
+                <li><Link to='./Indicadores'><img src={indicadores}/></Link></li>
 
                 <li><Link to='/Setores'><img src={Setores} alt="Setores" /></Link></li>
 

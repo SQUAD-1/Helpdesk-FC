@@ -1,6 +1,13 @@
 import './InfoGerais.css';
 
-export const InfoGerais = ({ detalhe, conclusao, ConteudoDetalhe, ConteudoConclusao1, ConteudoConclusao2, ItemAdicional, DescricaoAdicional}) => {
+import arquivo2 from '../../assets/imgItens/arquivo2.svg'
+import arquivoImg from '../../assets/imgItens/arquivoImg.svg'
+import moveFiles from '../../assets/imgItens/moveFiles.svg'
+import financeiro from '../../assets/imagens/financeiro.svg'
+import logisticaicon from '../../assets/imagens/logisticaicon.svg'
+import voltar from '../../assets/imagens/voltar.svg'
+
+export const InfoGerais = ({ detalhe, conclusao, ConteudoDetalhe, ConteudoConclusao1, ConteudoConclusao2, Transportadora, InfoTransportadora, InfoAdicional1, InfoAdicional2, DescAdicional1, DescAdicional2 }) => {
     return (
         <>
             <div className="Informacoes">
@@ -29,6 +36,39 @@ export const InfoGerais = ({ detalhe, conclusao, ConteudoDetalhe, ConteudoConclu
                             <p>Estimativa da entrega: 09/09/22</p>
                         </div>
                     </div>
+                    <article className="InfoAdicionais">
+                        <div className="info1">
+                            <div className="info-transportadora">
+                                <h3>{Transportadora}</h3>
+                                <p> {InfoTransportadora} </p>
+                            </div>
+                        </div>
+                        <div className="info2">
+                            <div className="descricao-info">
+                                <h3>{InfoAdicional1}</h3>
+                                <p> {DescAdicional1} </p>
+                            </div>
+                            <div className="descricao-info2">
+                                <h3>{InfoAdicional2}</h3>
+                                <p> {DescAdicional2} </p>
+                            </div>
+                        </div>
+                        <div className="info3">
+                            <div className="descricao-info3">
+                                <h3>Canal de Venda</h3>
+                                <p> Loja </p>
+                            </div>
+                            <div className="descricao-info4">
+                                <h3>Unidade</h3>
+                                <p> Ferreira Costa - Imbiribeira </p>
+                            </div>
+                        </div>
+                        <div className="setores-envolvidos">
+                            <h3>Setores Envolvidos</h3>
+                            <img src={logisticaicon} alt="" />
+                            <img src={financeiro} alt="" />
+                        </div>
+                    </article>
                 </div>
                 <div className="barra"></div>
                 <div className="conteudo-direita">
@@ -49,6 +89,17 @@ export const InfoGerais = ({ detalhe, conclusao, ConteudoDetalhe, ConteudoConclu
                             <p>{ConteudoConclusao2}</p>
                         </div>
                     </div>
+                    <aside className="anexos">
+                        <h3>Anexos</h3>
+                        <div className="ItensAnexos">
+                            <img className="moveFiles" src={voltar} alt="Retornar Imagem" />
+                            <img className="arquivo" src={arquivoImg} alt="Arquivo" />
+                            <img className="arquivoImg" src={arquivoImg} alt="Aquivo Imagem" />
+                            <img className="arquivo2" src={arquivo2} alt="Arquivo Dois" />
+                            <img className="arquivo2" src={arquivo2} alt="Arquivo Dois" />
+                            <img className="moveFiles" src={moveFiles} alt="Retornar Imagem" />
+                        </div>
+                    </aside>
                 </div>
             </div>
         </>

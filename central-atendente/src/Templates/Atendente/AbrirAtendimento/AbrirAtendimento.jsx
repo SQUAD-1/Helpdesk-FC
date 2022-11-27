@@ -11,12 +11,12 @@ import arquivo from '../../../assets/imgItens/arquivo.svg'
 import arquivo2 from '../../../assets/imgItens/arquivo2.svg'
 import arquivoImg from '../../../assets/imgItens/arquivoImg.svg'
 import moveFiles from '../../../assets/imgItens/moveFiles.svg'
-import { MenuAtendente } from "../../../Components/Menu/Menu"
+import { Menu } from "../../../Components/Menu/Menu"
 
 export const AbrirAtendimento = () => {
     return (
         <section>
-            <MenuAtendente />
+            <Menu />
             <h1 className={styles.tituloChamado}>Abrir Atendimento</h1>
 
             <div className={styles.containerInfors}>

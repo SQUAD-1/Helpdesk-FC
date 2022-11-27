@@ -1,4 +1,4 @@
-import '/Conteudo.css';
+import './Conteudo.css';
 
 import ViewDetails from '../../../../assets/imagens/ViewDetails.svg';
 
@@ -13,7 +13,7 @@ export const Conteudo = () => {
                             18/09/2022</span>
                         </div>
                         <div className="data-calendar">
-                            <img className="calendar"></img>
+                            <img className="calendar" />
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export const Conteudo = () => {
                                     <p className="font-600">Chamados fechados</p>
                                     <p className="font-400">09 chamados</p>
                                     <p className="font-600">Chamados sem interação</p>
-                                    <P className="font-400">03 chamados</P>
+                                    <p className="font-400">03 chamados</p>
                                 </div>
                                 <div id="chamados-2">
                                     <p className="font-600">Tempo médio de resposta</p>
@@ -52,7 +52,7 @@ export const Conteudo = () => {
                                     <p className="font-600">Tempo médio por ligação</p>
                                     <p className="font-400">03 minuots</p>
                                     <p className="font-600">Chamado a vencer (48h)</p>
-                                    <P className="font-400">07 chamados</P>
+                                    <p className="font-400">07 chamados</p>
                                 </div>
                             </div>
 
