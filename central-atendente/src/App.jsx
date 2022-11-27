@@ -1,5 +1,4 @@
-import { AtendentePrincipal } from "./Templates/Atendente/Principal/AtendentePrincipal";
-import { SideBarAtendente } from "./Components/sideBarAtendente/sideBarAtendente";
+import { Cliente } from "./Templates/Atendente/Cliente/Cliente";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SegundaTela } from "./Templates/Atendente/TelaInicialAtendimento/TelaInicialAtendente";
 import { Login } from "./Components/Login/Login";
@@ -9,9 +8,9 @@ export const App = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Login />} />
+          <Route path='/Login' element={<Login />} />
           <Route path='/TelaInicialAtendente' element={<SegundaTela />} />
-          <Route path='/Atendimentos' element={<AtendentePrincipal />} />
+          <Route path='/Atendimentos' element={<Cliente />} />
         </Routes>
       </BrowserRouter>
     </>

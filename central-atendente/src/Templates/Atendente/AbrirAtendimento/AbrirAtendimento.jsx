@@ -13,7 +13,7 @@ import arquivoImg from '../../../assets/imgItens/arquivoImg.svg'
 import moveFiles from '../../../assets/imgItens/moveFiles.svg'
 import { Menu } from "../../../Components/Menu/Menu"
 
-export const AtendimentoChamado = () => {
+export const AbrirAtendimento = () => {
     return (
         <section>
             <Menu />
