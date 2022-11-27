@@ -6,13 +6,14 @@ import { Consulta } from "./Components/Consulta/Consulta";
 import { ListaChamados } from "../src/Components/Chamados/ListaChamados";
 import { ChamadosAtendente } from "./Templates/Atendente/ChamadosAtendente/ChamadosAtendente";
 import { ConsultaAtendente } from "./Templates/Atendente/ConsultaAtendente/ConsultaAtendente";
+import { ConteudoSetores } from "./Templates/Supervisor/Setores/ConteudoSetores/ConteudoSetores";
 
 export const App = () => {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Login />} />
+          <Route path='/' element={<ConteudoSetores />} />
           <Route path="/TelaInicial" element={<TelaInicialAtendente />} />
           <Route path="/Cliente" element={<Cliente />} />
           <Route path="/Consulta" element={<ConsultaAtendente />} />

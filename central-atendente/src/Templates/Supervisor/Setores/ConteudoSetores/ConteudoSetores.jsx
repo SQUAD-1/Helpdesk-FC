@@ -1,16 +1,29 @@
 import './ConteudoSetores.css'
 
+import avatar from '../../../../assets/imagens/avatar.svg'
+import logistica from '../../../../assets/imagens/logistica.svg'
+import pin from '../../../../assets/imagens/pin.svg'
+import geren from '../../../../assets/imagens/geren.svg'
+import jurid from '../../../../assets/imagens/jurid.svg'
+import logis from '../../../../assets/imagens/logis.svg'
+import atend from '../../../../assets/imagens/atend.svg'
+import admin from '../../../../assets/imagens/admin.svg'
+import vendas from '../../../../assets/imagens/vendas.svg'
+import tesou from '../../../../assets/imagens/tesou.svg'
+import relac from '../../../../assets/imagens/relac.svg'
+
+
 export const ConteudoSetores = () => {
     return (
         <>
             <div className="wrap">
                 <section className="container">
                     <h1 className="username"> Setores</h1>
-                    <h2 className="description"> <img src="images/logistica.svg" alt="setor" /> Logística</h2>
+                    <h2 className="description"> <img src={logistica} alt="setor" /> Logística</h2>
 
                     <div className="container-func row row-cols-md-4">
                         <div className="box-func ">
-                            <img src="images/avatar.svg" alt="avatar" />
+                            <img src={avatar} alt="avatar" />
                                 <div className="legend-func">
                                     <div className="label-func">
                                         <label className="fonte-func">Marina Senna</label>
@@ -19,7 +32,7 @@ export const ConteudoSetores = () => {
                                 </div>
                         </div>
                         <div className="box-func">
-                            <img src="images/avatar.svg" alt="avatar" />
+                            <img src={avatar} alt="avatar" />
                                 <div className="legend-func">
                                     <div className="label-func">
                                         <label className="fonte-func">Roberto Alves</label>
@@ -28,7 +41,7 @@ export const ConteudoSetores = () => {
                                 </div>
                         </div>
                         <div className="box-func">
-                            <img src="images/avatar.svg" alt="avatar" />
+                            <img src={avatar} alt="avatar" />
                                 <div className="legend-func">
                                     <div className="label-func">
                                         <label className="fonte-func">Chico Science</label>
@@ -37,7 +50,7 @@ export const ConteudoSetores = () => {
                                 </div>
                         </div>
                         <div className="box-func">
-                            <img src="images/avatar.svg" alt="avatar" />
+                            <img src={avatar} alt="avatar" />
                                 <div className="legend-func">
                                     <div className="label-func">
                                         <label className="fonte-func">Laura Millan</label>
@@ -46,7 +59,7 @@ export const ConteudoSetores = () => {
                                 </div>
                         </div>
                         <div className="box-func">
-                            <img src="images/avatar.svg" alt="avatar" />
+                            <img src={avatar} alt="avatar" />
                                 <div className="legend-func">
                                     <div className="label-func">
                                         <label className="fonte-func">Pedro Primeiro</label>
@@ -55,7 +68,7 @@ export const ConteudoSetores = () => {
                                 </div>
                         </div>
                         <div className="box-func">
-                            <img src="images/avatar.svg" alt="avatar" />
+                            <img src={avatar} alt="avatar" />
                                 <div className="legend-func">
                                     <div className="label-func">
                                         <label className="fonte-func">Luís Lins</label>
@@ -77,7 +90,7 @@ export const ConteudoSetores = () => {
 
 
                 <div className="sidebar">
-                    <h2 className="description"> <img src="images/pin.svg" alt="pin" /> Unidade</h2>
+                    <h2 className="description"> <img src={pin} alt="pin" /> Unidade</h2>
 
                     <div className="select-group">
                         <button id="button" className="button">
@@ -109,35 +122,35 @@ export const ConteudoSetores = () => {
                                                         <div className="caixa-verde">
                                                             <div className="setores">
                                                                 <li className="setor">
-                                                                    <img src="images/admin.svg" alt="setor" />
+                                                                    <img src={admin}alt="setor" />
                                                                         <label>Administração</label>
                                                                 </li>
                                                                 <li className="setor">
-                                                                    <img src="images/atend.svg" alt="setor" />
+                                                                    <img src={atend} alt="setor" />
                                                                         <label>Atendimento</label>
                                                                 </li>
                                                                 <li className="setor">
-                                                                    <img src="images/geren.svg" alt="setor" />
+                                                                    <img src={geren} alt="setor" />
                                                                         <label>Gerência</label>
                                                                 </li>
                                                                 <li className="setor">
-                                                                    <img src="images/jurid.svg" alt="setor" />
+                                                                    <img src={jurid} alt="setor" />
                                                                         <label>Jurídico</label>
                                                                 </li>
                                                                 <li className="setor">
-                                                                    <img src="images/logis.svg" alt="setor" />
+                                                                    <img src={logis} alt="setor" />
                                                                         <label>Logística</label>
                                                                 </li>
                                                                 <li className="setor">
-                                                                    <img src="images/relac.svg" alt="setor" />
+                                                                    <img src={relac}alt="setor" />
                                                                         <label>Relacionamento</label>
                                                                 </li>
                                                                 <li className="setor">
-                                                                    <img src="images/tesou.svg" alt="setor" />
+                                                                    <img src={tesou} alt="setor" />
                                                                         <label>Tesouraria</label>
                                                                 </li>
                                                                 <li className="setor">
-                                                                    <img src="images/vendas.svg" alt="setor" />
+                                                                    <img src={vendas} alt="setor" />
                                                                         <label>Vendas</label>
                                                                 </li>
                                                             </div>
