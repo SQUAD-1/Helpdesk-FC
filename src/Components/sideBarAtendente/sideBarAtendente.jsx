@@ -10,34 +10,30 @@ import Chat from '../../assets/imgSideBar/Chat.svg'
 import Mail from '../../assets/imgSideBar/Mail.svg'
 import Phone from '../../assets/imgSideBar/Phone.svg'
 import congelar from '../../assets/imgSideBar/congelar.svg'
-import { useEffect } from 'react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export const SideBarAtendente = () => {
 
-    const [day, setDay] = useState('');
-    const [year, setYear] = useState('');
-    const [hours, setHours] = useState('');
-    const [minutes, setMinutes] = useState('');
-    const [month, setMonth] = useState('');
+    const [date, setDate] = useState(new Date().toLocaleDateString("pt-Br", {weekday:'numeric', month:'long',year:'numeric'}))
+    const [hours, setHours] = useState(new Date().toLocaleTimeString("pt-BR", {hours:'numeric', minute:'numeric'}))
 
-    useEffect(()=>{
-        const now = new Date();
-        setDay(...day, day + now.getDay())
-        setYear(...year, year + now.getFullYear())
-        setHours(...hours, hours + now.getHours())
-        setMinutes(...minutes, minutes + now.getMinutes())
-        setMonth(...month, month + ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "julho", "Agosto", "Setembro","Outubro", "Novembro", "Dezembro"][(now.getMonth())])
-    }, [day, year, hours, minutes, month])
+    function updateHour(){
+        const toDay = new Date();
+        setHours(toDay.toLocaleTimeString("pt-BR", {hours:'numeric', minute:'numeric'}))
+        setInterval(updateHour, 1000*60)
+    }
 
+    useEffect(()=> {
+        updateHour()
+    }, [])
 
     return(
         <section className={styles.container}>
             <div className={styles.hours}>
-                {hours} : {minutes}
+                {hours}
             </div>
             <div className={styles.date}>
-                {day} de {month} de {year}
+                {date}
             </div>
 
             <div className={styles.lineTempo}>
