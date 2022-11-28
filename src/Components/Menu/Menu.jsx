@@ -6,7 +6,7 @@ import Atendimentos from '../../assets/ImgBarraLateral/Atendimentos.svg'
 import Chamados from '../../assets/ImgBarraLateral/Chamados.svg'
 import Consulta from '../../assets/ImgBarraLateral/Consulta.svg'
 import Setores from '../../assets/ImgBarraLateral/Setores.svg'
-import fotoAtendente from '../../assets/ImgBarraLateral/fotoAtendente.svg'
+import fotoAtendente from '../../assets/ImgBarraLateral/fotoAtendente.png'
 import { Link } from 'react-router-dom';
 
 export const Menu = () => {

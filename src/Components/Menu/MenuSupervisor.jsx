@@ -7,7 +7,7 @@ import Chamados from '../../assets/ImgBarraLateral/Chamados.svg'
 import Consulta from '../../assets/ImgBarraLateral/Consulta.svg'
 import Setores from '../../assets/ImgBarraLateral/Setores.svg'
 import indicadores from '../../assets/imagens/indicadores.png'
-import fotoAtendente from '../../assets/ImgBarraLateral/fotoAtendente.svg'
+import fotoAtendente from '../../assets/ImgBarraLateral/fotoAtendente.png'
 import atendentes from '../../assets/imagens/atendentes.png'
 import { Link } from 'react-router-dom';
 

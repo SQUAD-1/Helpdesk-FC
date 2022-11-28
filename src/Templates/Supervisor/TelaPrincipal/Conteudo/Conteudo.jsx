@@ -1,6 +1,6 @@
 import './Conteudo.css';
 
-import ViewDetails from '../../../../assets/imagens/ViewDetails.svg';
+import ViewDetails from '../../../../assets/imagens/ViewDetails.svg'
 
 export const Conteudo = () => {
     return (
