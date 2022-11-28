@@ -1,0 +1,94 @@
+.Informacoes {
+    left: 15%;
+    position: absolute;
+    top: 40%;
+    display: flex;
+	align-items:flex-start;
+}
+
+.conteudo-esquerda {
+    margin-top: 3%;
+    width: 35%;
+}
+.conteudo-direita {
+    margin-top: 3%;
+    width: 35%;
+    margin-left: 2%;
+}
+
+.item h3 {
+    font-size: 15px;
+    font-weight: 650;
+}
+
+.segundo-item {
+    margin-top:8%;
+}
+.itens-pedido p {
+    line-height: 6%;
+}
+
+.barra { 
+	width:0px;
+	height:290px;
+	margin: 20px;
+	border:2px solid #999999;
+}
+
+.anexos {
+    margin-top: 5%;
+}
+
+.ItensAnexos .moveFiles{
+    padding: 0px;
+    border-radius: 100px;
+    width: 20px;
+    height: 25px;
+    margin-top: auto;    
+    margin-bottom: auto;
+}
+
+.ItensAnexos{
+    display: flex;
+    width: 0px;
+}
+
+.ItensAnexos img{
+    background: #E5E6E6;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0px 5px 0px 5px;
+}
+
+.file{
+    width: 20px;
+}
+
+.InfoAdicionais {
+    margin-top: 20%;
+}
+
+.InfoAdicionais h3 {
+    font-size: 14px;
+    font-weight: 670;
+}
+
+.InfoAdicionais p{
+    line-height: 6%;
+}
+
+.info3 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descricao-info2 {
+    margin-right: 31%;
+}

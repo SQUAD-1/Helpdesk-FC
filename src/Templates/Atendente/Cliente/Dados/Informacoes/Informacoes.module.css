@@ -1,0 +1,106 @@
+.h1{
+    /* Luiz Motta */
+    position: absolute;
+    width: 163px;
+    height: 39px;
+    left: 150px;
+    top: 70px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 37px;
+    /* identical to box height */
+
+    color: #E71C35;
+}
+
+.h2{
+    position: absolute;
+    width: 226px;
+    height: 29px;
+    left: 150px;
+    top: 130px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #7AC143;
+}
+
+article p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #4F5256;
+}
+
+article h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.consulta{
+    position: absolute;
+    margin-left: 150px;
+    font-weight: 600;
+    font-size: large;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.consulta b{
+    font-size: 23px;
+}
+
+.nomeNascimento{
+    position: absolute;
+    display: flex;
+    width: 631px;
+    height: 175px;
+    left: 150px;
+    top: 190px;
+}
+
+.dataNasc{
+    margin-left: 80px;
+}
+
+.cpfRg{
+    position: absolute;
+    display: flex;
+    left: 150px;
+    margin-top: 240px;
+}
+
+.rg{
+    margin-left: 105px;
+}
+
+.lineFinal{
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 0px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+
+    border: 1px solid #DEF0D0;
+}

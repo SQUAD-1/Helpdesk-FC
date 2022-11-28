@@ -1,0 +1,249 @@
+.usuario{
+    margin-bottom: 40px;
+	height: 40px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	color: #E71C35;
+}
+
+
+#atendimento{
+    position: absolute;
+	top: 10%;
+	left: 45%;
+	transform: translate(-50%,0);
+
+}
+
+
+#atendimento1{
+	width: 70vw;
+	
+}
+
+
+
+
+.font-call{
+	font-family: 'Inter';
+	font-size: 14px;
+	line-height: 18px;
+	text-align: left;
+	font-weight:bold;
+}
+
+
+.font-600-14{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	color: #000000;
+}
+.font-600-15{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+
+	color: #000000;
+}
+
+.container-topo{
+	
+	width: 890px;
+	height: 56px;
+	display: flex;
+	gap: 2.5rem;
+	justify-content: space-between;
+	margin-block-end: 50px;
+	
+}
+.container-icons{
+	
+	display: flex;
+	gap: 0.5rem;
+	justify-content: space-around;
+	align-items: center;
+	
+	
+}
+
+.containerTopo{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* filtro */
+
+ul.lista{
+	width: 174px;
+	
+}
+:root {
+	
+    --cor-fundo: #EBF6E3;
+    --cor-hover: #a7ce90;
+    --cor-primaria: #000000;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19.36px;
+}
+
+.dp-menu-chamados ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu-chamados ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu-chamados ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu-chamados ul li a {
+	width: 174px;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu-chamados ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu-chamados ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu-chamados ul li:hover ul {
+    display: block;
+}
+
+.dp-menu-chamados ul ul {
+    width: 174px;
+}
+
+.dp-menu-chamados ul ul li a {
+    display: block;
+}
+
+/* tabela */
+
+th{
+	text-align: start;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.font-500{
+	font-family: 'Inter';
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+	font-weight:bold;
+}
+
+
+.dados{
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+	justify-content: space-between;
+	width: 70vw;
+}
+
+.titulo-atend2 {
+   display: flex;
+ margin-top: 100px;
+
+}
+
+
+.caixa{
+	width: 180px;
+	height: 140px;
+	border-radius: 10px;
+	border: 1px solid #C3E3AA;
+	padding: 10px;
+
+	
+}
+
+
+.atendimento-li > label{
+	margin: 15px;
+}
+
+.atendimento-li{
+	background-color: #9BD172;
+	border-radius: 4px;
+	margin-bottom: 8px;
+}
+
+table{
+	width: 70vw;
+	border-collapse: separate;
+  	border-spacing: 0 8px;
+}
+tbody tr{
+	background-color: #C3E3AA;
+}
+.img-td{
+	border-top-right-radius:  6px;
+	border-bottom-right-radius:   6px;
+}
+td{
+border: solid 1px #C3E3AA;
+}
+
+.first-td{
+	
+	padding-left: 10px;
+	border-top-left-radius:  6px;
+	border-bottom-left-radius:   6px;
+}
+
+tbody th{
+	
+	display: flex;
+	align-items: flex-start !important;
+}
+tbody tr:hover{
+	
+	background-color: #CADE4E;
+	
+}
+
+
+.d-none{
+	display: none;
+}
+
+.m-14{
+	margin:14px 0px;
+}
