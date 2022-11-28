@@ -5,11 +5,8 @@ nav{
     padding: 10px;
     top: 0%;
     bottom: 0%;
-
     background: #F6F7F7;
-
     /* Sombra Barra */
-
     box-shadow: 0px 10px 19px rgba(178, 179, 181, 0.7);
 }
 
@@ -28,7 +25,7 @@ nav ul li{
 }
 
 .logo{
-    margin-left: -5px;
+    margin-left: 10%;
 }
 
 .foto{

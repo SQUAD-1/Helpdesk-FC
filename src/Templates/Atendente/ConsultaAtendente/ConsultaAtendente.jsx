@@ -1,13 +1,14 @@
 import { Consulta } from '../../../Components/Consulta/Consulta'
 import { Menu } from '../../../Components/Menu/Menu'
-import { SideBarAtendente } from '../../../Components/sideBarAtendente/sideBarAtendente'
+import { MenuSupervisor } from '../../../Components/Menu/MenuSupervisor'
+import { sideBarSupervisor } from '../../../Components/sideBarSupervisor/sideBarSupervisor'
 
 export const ConsultaAtendente = () => {
     return (
         <>
-        <Menu />
+        <MenuSupervisor />
         <Consulta />
-        <SideBarAtendente />
+        <sideBarSupervisor />
         </>
     )
 }
