@@ -154,11 +154,12 @@
 .numero{
     position: relative;
     color: #000;
-    line-height: 10px;
-    font-size: 18px;
+    line-height: 7px;
+    font-size: 15px;
     text-indent: 10px;
     left: 0px;
     top: 0px;
+    width: 80%;
 }
 
 .quemLiga{
@@ -170,9 +171,10 @@
 .loja{
     position: relative;
     color: #000;
-    line-height: 10px;
-    font-size: 18px;
+    line-height: 7px;
+    font-size: 15px;
     text-indent: 10px;
+    width: 100%;
     left: 0px;
     top: 0px;
 }

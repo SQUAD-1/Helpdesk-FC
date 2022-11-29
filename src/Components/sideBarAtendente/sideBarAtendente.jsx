@@ -15,29 +15,26 @@ import { useState } from 'react'
 
 export const SideBarAtendente = () => {
 
-    const [day, setDay] = useState('');
-    const [year, setYear] = useState('');
-    const [hours, setHours] = useState('');
-    const [minutes, setMinutes] = useState('');
-    const [month, setMonth] = useState('');
+    // const [hours, setHours] = useState(new Date().toLocaleDateString("pt-BR", {hour:"numeric", minute:"numeric"}))
+    // const [date, setDate] = useState(new Date().toLocaleDateString("pt-BR", {weekday:"numeric", month:"long", year:"numeric"}))
 
-    useEffect(()=>{
-        const now = new Date();
-        setDay(...day, day + now.getDay())
-        setYear(...year, year + now.getFullYear())
-        setHours(...hours, hours + now.getHours())
-        setMinutes(...minutes, minutes + now.getMinutes())
-        setMonth(...month, month + ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "julho", "Agosto", "Setembro","Outubro", "Novembro", "Dezembro"][(now.getMonth())])
-    }, [day, year, hours, minutes, month])
+    // function updateHour(){
+    //     const toDay = new Date();
+    //     setInterval(updateHour, 1000*60)
+    //     setHours(toDay.toLocaleDateString("pt-BR", {hour:"numeric", minute:"numeric"}))
+    // }
 
+    // useEffect(()=>{
+    //     updateHour()
+    // }, [])
 
     return(
         <section className={styles.container}>
             <div className={styles.hours}>
-                {hours} : {minutes}
+                22 : 00
             </div>
             <div className={styles.date}>
-                {day} de {month} de {year}
+                28 de Novembro de 2022
             </div>
 
             <div className={styles.lineTempo}>

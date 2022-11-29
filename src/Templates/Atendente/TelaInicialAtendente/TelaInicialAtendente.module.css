@@ -1,7 +1,7 @@
 section h1{
 
     position: absolute;
-    width: 300px;
+    width: 75%;
     height: 39px;
     left: 150px;
     top: 30px;
@@ -9,16 +9,16 @@ section h1{
 
 .imgTela{
     position: absolute;
-    width: 340px;
+    width: 30%;
     height: 260px;
-    left: 369px;
+    left: 400px;
     top: 130px;
 }
 
 .componentAtendimento{
     position: absolute;
-    width: 700px;
+    width: 50%;
     height: 155px;
-    margin-left: 180px;
+    margin-left: 130px;
     top: 444px;
 }
