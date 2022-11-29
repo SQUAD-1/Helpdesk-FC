@@ -1,6 +1,6 @@
 {
-  "name": "central-atendimento",
-  "description": "a really cool app",
+  "name": "Helpdesk FC",
+  "description": "Gerenciador de atendimento e chamadas da Ferreira Costa",
   "version": "0.1.0",
   "private": true,
   "engines": {
