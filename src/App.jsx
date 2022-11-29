@@ -31,8 +31,8 @@ export const App = () => {
           <Route path="/Chamado" element={<TelaChamado /> } />
           <Route path="/ChamadosSupervisor" element={<ChamadosSupervisor />} />
           <Route path="/Atendentes" element={<ListaAtendentes /> } />
-          <Route path="/Setores" element={<SetoresSupervisor/>} />
-          <Route path="/SupervisorInicial" element={<SupervisorPrincipal /> } />
+          <Route path="/SetoresSupervisor" element={<SetoresSupervisor/>} />
+          <Route path="/InicioSupervisor" element={<SupervisorPrincipal /> } />
         </Routes>
       </BrowserRouter>
     </>

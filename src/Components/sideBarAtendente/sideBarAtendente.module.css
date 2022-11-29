@@ -1,7 +1,8 @@
 .container{
     position: absolute;
-    margin-left: 80%;
-    width: 20%;
+    display: fixed !important;
+    margin-left: 84%;
+    width: 16%;
     height: 160%;
     float: right;
     top: 0px;
@@ -19,8 +20,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 30px;
+    line-height: 35px;
 }
 
 .date{
@@ -29,9 +30,9 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 5%;
-    line-height: 15px;
+    line-height: 13px;
 }
 
 .lineTempo{
@@ -46,13 +47,26 @@
     padding: 15px;
 }
 
+.lineTempo h1{
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 13px;
+}
+
+.lineTempo ul{
+    margin-top: -30px;
+}
+
 .lineTempo ul li{
     margin-top: 5px;
 }
 
 .botao{
     position: relative;
-    margin-left: 190px;
+    margin-left: 87%;
     top: -45px;
     width: 25px;
 }
@@ -97,7 +111,7 @@
 
 .botaoChamada{
     position: relative;
-    margin-left: 190px;
+    margin-left: 87%;
     top: -45px;
     width: 25px;
 }
@@ -121,10 +135,10 @@
 .cronometro{
     position: relative;
     color: #000;
-    font-size: 35px;
+    font-size: 28px;
     line-height: 10px;
-    height: 39px;
-    left: 0px;
+    height: 30px;
+    left: -5px;
     top: 0px;
 }
 
@@ -134,8 +148,7 @@
 
 .tempGrav p{
     display: flex;
-    margin-right: 30px;
-    margin-top: -5px;
+    margin-top: -8px;
 }
 
 .tempGrav p img{
@@ -155,11 +168,11 @@
     position: relative;
     color: #000;
     line-height: 7px;
-    font-size: 15px;
-    text-indent: 10px;
+    font-size: 14px;
+    text-indent: 5px;
     left: 0px;
     top: 0px;
-    width: 80%;
+    width: 100%;
 }
 
 .quemLiga{
@@ -172,8 +185,8 @@
     position: relative;
     color: #000;
     line-height: 7px;
-    font-size: 15px;
-    text-indent: 10px;
+    font-size: 14px;
+    text-indent: 5px;
     width: 100%;
     left: 0px;
     top: 0px;
@@ -185,7 +198,7 @@
 }
 
 .desligar{
-    margin-left: 35%;
+    margin-left: 20%;
     top: -10px;
 }
 

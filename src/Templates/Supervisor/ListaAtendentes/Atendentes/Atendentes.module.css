@@ -22,17 +22,17 @@ th{
 }
 
 
-#atendimento{
+.atendimento{
     position: absolute;
-	top: 10%;
-	left: 45%;
+	top: 20%;
+	left: 45.6%;
 	transform: translate(-50%,0);
-
 }
 
 
 table{
-	width: 70vw;
+	width: 70%;
+	margin: auto;
 	border-collapse: separate;
   	border-spacing: 0 8px;
 }
@@ -41,13 +41,13 @@ tbody tr{
 	background-color: #C3E3AA;
 }
 
-.img-td{
+.imgTd{
 	border-top-right-radius:  6px;
 	border-bottom-right-radius:   6px;
 }
 
 
-.first-td{
+.firstTd{
 	padding-left: 10px;
     padding-top:10px;
     padding-bottom:10px;
@@ -63,7 +63,7 @@ tbody tr:hover{
 	background-color: #CADE4E;
 }
 
-.font-600 {
+.font600 {
 	font-family: 'Inter';
 	font-size: 15px;
 	font-weight: 600;
@@ -73,13 +73,13 @@ tbody tr:hover{
 	font-weight:bold;
 }
 
-.font-500{
+.font500{
 	font-family: 'Inter';
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 17px;
 	letter-spacing: 0em;
-	text-align: left;
+	text-align: center;
 	font-weight:bold;
 }
 

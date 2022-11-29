@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 export const MenuSupervisor = () => {
     return(
         <nav>
-            <img className={styles.logo} src={logoPequeno} alt="Logo Ferreira costa" />
+            <Link to='/'><img className={styles.logo} src={logoPequeno} alt="Logo Ferreira costa" /></Link>
             <ul>
                 <li><Link to='/InicioSupervisor'><img src={inicio} alt="Inicio" /></Link></li>
 
@@ -30,8 +30,8 @@ export const MenuSupervisor = () => {
 
                 <li><Link to='/SetoresSupervisor'><img src={Setores} alt="Setores" /></Link></li>
 
-                <li><img className={styles.foto} src={fotoAtendente} alt="Foto do Atendente" /></li>
             </ul>
+                <img className={styles.foto} src={fotoAtendente} alt="Foto do Atendente" />
         </nav>
     )
 }
