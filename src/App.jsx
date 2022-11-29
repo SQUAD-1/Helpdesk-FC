@@ -9,9 +9,10 @@ import { TelaChamado } from "./Templates/Atendente/TelaChamado/TelaChamado";
 import { TelaAtendimento } from "./Templates/Atendente/TelaAtendimento/TelaAtendimento"
 import { AbrirChamado } from "./Templates/Atendente/AbrirChamado/AbrirChamado";
 import { ChamadosSupervisor } from "./Templates/Supervisor/ChamadosSupervisor/ChamadosSupervisor";
-import { Setores } from "./Templates/Supervisor/Setores/Setores";
 import { ListaAtendentes } from "./Templates/Supervisor/ListaAtendentes/ListaAtendentes"
 import { SupervisorPrincipal } from "./Templates/Supervisor/TelaPrincipal/SupervisorPrincipal";
+import { SetoresAtendente } from "./Templates/Atendente/SetoresAtendente/SetoresAtendente";
+import { SetoresSupervisor } from "./Templates/Supervisor/SetoresSupervisor/SetoresSupervisor";
 
 export const App = () => {
   return (
@@ -30,7 +31,7 @@ export const App = () => {
           <Route path="/Chamado" element={<TelaChamado /> } />
           <Route path="/ChamadosSupervisor" element={<ChamadosSupervisor />} />
           <Route path="/Atendentes" element={<ListaAtendentes /> } />
-          <Route path="/Setores" element={<Setores />} />
+          <Route path="/Setores" element={<SetoresSupervisor/>} />
           <Route path="/SupervisorInicial" element={<SupervisorPrincipal /> } />
         </Routes>
       </BrowserRouter>

@@ -1,6 +1,6 @@
 import styles from './Menu.module.css'
 
-import logoPequeno from '../../assets/ImgBarraLateral/logoPequeno.svg'
+import logoPequeno from '../../assets/imagens/fc_logo.svg'
 import inicio from '../../assets/ImgBarraLateral/inicio.svg'
 import Atendimentos from '../../assets/ImgBarraLateral/Atendimentos.svg'
 import Chamados from '../../assets/ImgBarraLateral/Chamados.svg'

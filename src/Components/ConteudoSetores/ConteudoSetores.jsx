@@ -1,16 +1,16 @@
 import './ConteudoSetores.css'
 
-import avatar from '../../../../assets/imagens/avatar.svg'
-import logistica from '../../../../assets/imagens/logistica.svg'
-import pin from '../../../../assets/imagens/pin.svg'
-import geren from '../../../../assets/imagens/geren.svg'
-import jurid from '../../../../assets/imagens/jurid.svg'
-import logis from '../../../../assets/imagens/logis.svg'
-import atend from '../../../../assets/imagens/atend.svg'
-import admin from '../../../../assets/imagens/admin.svg'
-import vendas from '../../../../assets/imagens/vendas.svg'
-import tesou from '../../../../assets/imagens/tesou.svg'
-import relac from '../../../../assets/imagens/relac.svg'
+import avatar from '../../assets/imagens/avatar.svg'
+import logistica from '../../assets/imagens/logistica.svg'
+import pin from '../../assets/imagens/pin.svg'
+import geren from '../../assets/imagens/geren.svg'
+import jurid from '../../assets/imagens/jurid.svg'
+import logis from '../../assets/imagens/logis.svg'
+import atend from '../../assets/imagens/atend.svg'
+import admin from '../../assets/imagens/admin.svg'
+import vendas from '../../assets/imagens/vendas.svg'
+import tesou from '../../assets/imagens/tesou.svg'
+import relac from '../../assets/imagens/relac.svg'
 
 
 export const ConteudoSetores = () => {

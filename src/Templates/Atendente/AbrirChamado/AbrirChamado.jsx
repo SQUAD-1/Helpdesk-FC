@@ -11,9 +11,13 @@ import arquivo from '../../../assets/imgItens/arquivo.svg'
 import arquivo2 from '../../../assets/imgItens/arquivo2.svg'
 import arquivoImg from '../../../assets/imgItens/arquivoImg.svg'
 import moveFiles from '../../../assets/imgItens/moveFiles.svg'
+import { MenuSupervisor } from "../../../Components/Menu/MenuSupervisor"
+import { sideBarSupervisor } from "../../../Components/sideBarSupervisor/sideBarSupervisor"
 
 export const AbrirChamado = () => {
     return(
+        <>
+        <MenuSupervisor />
         <section>
 
            <h1 className={styles.tituloChamado}>Abrir Chamado</h1>
@@ -90,5 +94,8 @@ export const AbrirChamado = () => {
             </article>
 
         </section>
+        <sideBarSupervisor />
+        </>
+        
     )
 }

@@ -1,12 +1,12 @@
-import { ListaChamados } from "../../../Components/Chamados/ListaChamados"
 import { MenuSupervisor } from "../../../Components/Menu/MenuSupervisor"
+import { ConteudoSetores } from "../../../Components/ConteudoSetores/ConteudoSetores"
 import { sideBarSupervisor } from "../../../Components/sideBarSupervisor/sideBarSupervisor"
 
-export const ChamadosAtendente = () => {
+export const SetoresSupervisor = () => {
     return (
         <>
         <MenuSupervisor />
-        <ListaChamados />
+        <ConteudoSetores />
         <sideBarSupervisor />
         </>
     )

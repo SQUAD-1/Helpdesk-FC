@@ -1,5 +1,4 @@
-import styles from './TelaInicialAtendente.module.css'
-
+import './TelaInicialAtendente.css'
 import { Menu } from '../../../Components/Menu/Menu'
 import { SideBarAtendente } from '../../../Components/sideBarAtendente/sideBarAtendente'
 import Callcentercuate from '../../../assets/imagens/Callcentercuate.svg'
@@ -8,16 +7,16 @@ import { MenuSupervisor } from '../../../Components/Menu/MenuSupervisor'
 import {Atendentes} from '../../../Templates/Supervisor/ListaAtendentes/Atendentes/Atendentes'
 
 
-export const TelaInicialAtendente = ({nome}) => {
+export const TelaInicialAtendente = () => {
     return(
         <section>
             <Menu />
-            <article className={styles.container}>
+            <article className="container">
                 <h1>Bom dia,  {nome}</h1>
-                <img className={styles.imgTela} src={Callcentercuate} alt="Imagem da Tela" />
+                <img className="imgTela" src={Callcentercuate} alt="Imagem da Tela" />
 
-            <Atendentes className={styles.componentAtendimento}/>
-        </article>
+                <img className="componentAtendimento" src={Component20} alt="Componente de Lista de Atendimento" />
+            </article>
             <SideBarAtendente />
         </section>
     )
