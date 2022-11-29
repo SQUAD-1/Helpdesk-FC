@@ -54,7 +54,7 @@ li {
 	margin-right: 0.5rem!important;
 }
 
-.data-calendar {
+.dataCalendar {
 	display: flex; 
 	text-align: center;
 	width:36px;
@@ -94,12 +94,12 @@ li {
 	max-width: 400px;
 }
 
-.total-atend{
+.totalAtend{
 	width: 200px;
 	height: 200px;
 }
 
-.titulo-atend { 
+.tituloAtend { 
 	font-family:Inter;
 	text-align:left;
 	font-style: normal;
@@ -160,17 +160,17 @@ th{
 	width: 70vw;
 }
 
-.titulo-atend2 {
+.tituloAtend2 {
    display: flex;
  margin-top: 100px;
 
 }
 
-#chamados-2 {
+.chamados-2 {
 	margin-left: 100px;
 }
 
-#atendimento{
+.atendimento{
 	background-color: #D0E9BD;
 	padding: 20px;
 	border-radius: 6px;
@@ -216,7 +216,7 @@ tbody tr:hover{
 	
 }
 
-.container-Atend{
+.containerAtend{
 padding-top: 100px;
 display: flex;
 flex-direction: column!important;
@@ -276,7 +276,7 @@ width: 72vw;
 	.grafico1{
 		width: 420px;
 	}
-	.content-conteiner {
+	.contentConteiner {
 		margin-left: 6rem;
 		margin-right: 15rem;
 	}

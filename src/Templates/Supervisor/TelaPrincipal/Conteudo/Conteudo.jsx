@@ -1,28 +1,28 @@
-import './Conteudo.css';
+import styles from './Conteudo.module.css';
 
 import ViewDetails from '../../../../assets/imagens/ViewDetails.svg'
 
 export const Conteudo = () => {
     return (
         <>
-            <div className="content-conteiner">
-                <div className="cabecalho">
-                    <h1 className="usuario">Bom dia, José Vinicius!</h1>
+            <div className={styles.contentConteiner}>
+                <div className={styles.cabecalho}>
+                    <h1 className={styles.usuario}>Bom dia, José Vinicius!</h1>
                     <div style="display: flex;">
-                        <div className="data"><span>Hoje
+                        <div className={styles.data}><span>Hoje
                             18/09/2022</span>
                         </div>
-                        <div className="data-calendar">
-                            <img className="calendar" />
+                        <div className={styles.dataCalendar}>
+                            <img className={styles.calendar} />
                         </div>
                     </div>
                 </div>
 
                 <div>
-                    <div id="graficos" className="graficos">
-                        <canvas id="grafico2" className="grafico2"></canvas>
-                        <div className="total-atend">
-                            <div className="titulo-atend">
+                    <div id="graficos" className={styles.graficos}>
+                        <canvas id="grafico2" className={styles.grafico2}></canvas>
+                        <div className={styles.totalAtend}>
+                            <div className={styles.tituloAtend}>
                                 <p style="color: #53565A">Total de atendimentos</p>
                                 <p>94 atendimentos</p>
                                 <p style="color:#e71c35">Em andamento</p>
@@ -34,10 +34,10 @@ export const Conteudo = () => {
                             </div>
                         </div>
 
-                        <div className="barra"></div>
+                        <div className={styles.barra}></div>
 
                         <div>
-                            <div className="titulo-atend2">
+                            <div className={styles.tituloAtend2}>
                                 <div>
                                     <p className="font-600">Chamados criados</p>
                                     <p className="font-400">17 chamados</p>
@@ -57,13 +57,13 @@ export const Conteudo = () => {
                             </div>
 
                             <div>
-                                <canvas id="grafico1" className="grafico1"></canvas>
+                                <canvas id="grafico1" className={styles.grafico1}></canvas>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="container-Atend">
+                <div className={styles.containerAtend}>
                     <div className="titulo3 font-600" id="principais">
                         <h3 style="margin-top: 10px;"> Principais Motivos </h3>
                     </div>
@@ -77,7 +77,7 @@ export const Conteudo = () => {
                         <p> 13% - Outros</p>
                     </div>
                     <div id="atendimento">
-                        <div className="titulo4">
+                        <div className={styles.titulo4}>
                             <h2 style="font-size: 20px; font: inter;">Atendimentos em progresso</h2>
                             <p style="color: #436A25;font-size: 16px;">Mostrar tudo</p>
                         </div>
@@ -95,7 +95,7 @@ export const Conteudo = () => {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="linhas">
+                                    <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -104,7 +104,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""></img></td>
-                                    </tr>       <tr className="linhas">
+                                    </tr>       <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -113,7 +113,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""></img></td>
-                                    </tr>       <tr className="linhas">
+                                    </tr>       <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -122,7 +122,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""></img></td>
-                                    </tr>       <tr className="linhas">
+                                    </tr>       <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -131,7 +131,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""> </img></td>
-                                    </tr>       <tr className="linhas">
+                                    </tr>       <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -140,7 +140,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""></img></td>
-                                    </tr>       <tr className="linhas">
+                                    </tr>       <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -149,7 +149,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""></img></td>
-                                    </tr>       <tr className="linhas">
+                                    </tr>       <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -158,7 +158,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""></img></td>
-                                    </tr>       <tr className="linhas">
+                                    </tr>       <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -167,7 +167,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""></img></td>
-                                    </tr>       <tr className="linhas">
+                                    </tr>       <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -176,7 +176,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""></img></td>
-                                    </tr>     <tr className="linhas">
+                                    </tr>     <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -185,7 +185,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Telefone</td>
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""></img></td>
-                                    </tr>    <tr className="linhas">
+                                    </tr>    <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
@@ -195,7 +195,7 @@ export const Conteudo = () => {
                                         <td className="font-500">Baixa</td>
                                         <td className="img-td font-500"><img src={ViewDetails} alt=""></img></td>
                                     </tr>      
-                                    <tr className="linhas">
+                                    <tr className={styles.linhas}>
                                         <td className="first-td font-500">00000.000-00</td>
                                         <td className="font-500">Lorem Ipsum</td>
                                         <td className="font-500">Entrega não...</td>
