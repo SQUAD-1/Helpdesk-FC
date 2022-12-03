@@ -1,60 +1,60 @@
-import './sideBarSupervisor.css'
+import styles from './sideBarSupervisor.module.css'
 
 export const sideBarSupervisor = () => {
     return (
         <>
-            <div className="sidebar-right">
-                <div className="container-right">
+            <div className={styles.sidebarright}>
+                <div className={styles.containerright}>
                     <div>
-                        <div className="timedate">
-                            <h1 id="horario"></h1>
+                        <div className={styles.timedate}>
+                            <h1 className={styles.horario}></h1>
                         </div>
-                        <div className="timedate data"></div>
+                        <div className={styles.timedatedata}></div>
                     </div>
                     <section>
-                        <div className="time">
-                            <input type="checkbox" className="b-time check" />
-                            <div className="flex-beetwen">
-                                <h1 className="inline font-call">Linha do tempo</h1>
-                                <i className="bi bi-caret-up-fill seta"></i>
+                        <div className={styles.time}>
+                            <input type="checkbox" className={styles.btimecheck} />
+                            <div className={styles.flexbeetwen}>
+                                <h1 className={styles.inlinefontcall}>Linha do tempo</h1>
+                                <i className={styles.bibicaretupfillseta}></i>
                             </div>
-                            <div className="container-time d-none">
+                            <div className={styles.containertimednone}>
 
                             </div>
                         </div>
-                        <div className="chamada">
-                            <input type="checkbox" className="infos check" />
-                            <div className="flex-beetwen">
-                                <h1 className="inline font-call">Chamada</h1>
-                                <i className="bi bi-caret-up-fill seta"></i>
+                        <div className={styles.chamada}>
+                            <input type="checkbox" className={styles.infoscheck} />
+                            <div className={styles.flexbeetwen}>
+                                <h1 className={styles.inlinefontcall}>Chamada</h1>
+                                <i className={styles.bibicaretupfillseta}></i>
                             </div>
-                            <div className="chamadas d-none">
-                                <div className="hour">
-                                    <span className="horas">00:00</span>
-                                    <span className="text">
-                                        <div id="gravando"></div>
+                            <div className={styles.chamadasdnone}>
+                                <div className={styles.hour}>
+                                    <span className={styles.horas}>00:00</span>
+                                    <span className={styles.text}>
+                                        <div id={styles.gravando}></div>
                                         gravando
                                     </span>
                                 </div>
-                                <div className="font-600-14">N°telefone</div>
-                                <div className="font-600-15">+55 (81) 9 9999 - 9999</div>
-                                <div className="font-600-14">Ligou para</div>
-                                <div className="font-400">Ferreira Costa IMB</div>
-                                <div className="mt-8 flex">
-                                    <i className="bi bi-mic-mute-fill icones"></i>
+                                <div className={styles.font60014}>N°telefone</div>
+                                <div className={styles.font60015}>+55 (81) 9 9999 - 9999</div>
+                                <div className={styles.font60014}>Ligou para</div>
+                                <div className={styles.font400}>Ferreira Costa IMB</div>
+                                <div className={styles.mt8flex}>
+                                    <i className={styles.bibimicmutefillicones}></i>
                                     <abbr title="Transferir"><i
-                                        className="bi bi-telephone-forward-fill transferir icones"></i></abbr>
-                                    <i className="bi bi-volume-up-fill icones"></i>
-                                    <abbr title="Desconectar"> <i className="bi bi-telephone-x-fill desconect icones"></i></abbr>
+                                        className={styles.bibitelephoneforwardfilltransferiricones}></i></abbr>
+                                    <i className={styles.bibivolumeupfillicones}></i>
+                                    <abbr title="Desconectar"> <i className={styles.bibitelephonexfilldesconecticones}></i></abbr>
                                 </div>
                             </div>
                         </div>
-                        <div className="mensagens">
-                            <div className="call-img ">
-                                <i className="bi bi-chat-left-fill icones"></i>
-                                <i className="bi bi-envelope-fill icones"></i>
-                                <i className="bi bi-telephone-fill icones"></i>
-                                <i className="bi bi-snow icones"></i>
+                        <div className={styles.mensagens}>
+                            <div className={styles.callimg}>
+                                <i className={styles.bibichatleftfillicones}></i>
+                                <i className={styles.bibienvelopefillicones}></i>
+                                <i className={styles.bibitelephonefillicones}></i>
+                                <i className={styles.bibisnowicones}></i>
                             </div>
                         </div>
                     </section>

@@ -50,7 +50,7 @@
 	top: -10px;
 }
 
-.container-right {
+.containerright {
 	display: flex !important;
 	flex-wrap: wrap;
 	flex-flow: column;
@@ -58,10 +58,10 @@
 	justify-content: space-between;
 }
 
-.sidebar-right {
+.sidebarright {
+	width: 16%;
 	height: 100vh;
 	padding: 15px;
-	display: flex !important;
 	background: #F6F7F7;
 	/* Sombra Barra */
 	box-shadow: 0px 10px 19px rgba(178, 179, 181, 0.7);
@@ -81,11 +81,11 @@
 	margin-top: 15px;
 }
 
-#tod {
+.tod {
 	margin: 4px 10px 0 10px;
 }
 
-#audio {
+.audio {
 	float: left;
 	margin-right: 10px;
 }
@@ -105,7 +105,7 @@
 
 }
 
-#horario {
+.horario {
 	margin-top: 40px;
 	font-family: 'Inter';
 	font-style: normal;
@@ -122,7 +122,7 @@
 
 
 
-.sizig-sidebar-right {
+.sizigsidebarright {
 	flex-direction: column !important;
 	flex-shrink: 0 !important;
 	width: 15rem;
@@ -162,7 +162,7 @@
 
 }
 
-.call-img {
+.callimg {
 	width: 150px;
 	display: flex;
 	justify-content: space-around;
@@ -215,7 +215,7 @@
 	justify-content: space-around;
 }
 
-.flex-beetwen {
+.flexbeetwen {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

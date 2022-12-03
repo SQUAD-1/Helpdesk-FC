@@ -94,7 +94,7 @@ export const ConteudoSetores = () => {
 
                     <div className={styles.selectgroup}>
                         <button id="button" className={styles.button}>
-                            <ul id="select-label">Selecione a unidade</ul>
+                            <ul className={styles.selectlabel}>Selecione a unidade</ul>
                             <div id="arrow" className={styles.arrow}></div>
                         </button>
                         <div className={styles.dropdownhidden} id="dropdown">
@@ -105,13 +105,13 @@ export const ConteudoSetores = () => {
                                     <input type="radio" id="select-garanhus" name="where" value="garanhus" className={styles.option} />
                                         <label for="select-garanhus" className={styles.selectitem}>Garanhus - PE</label>
                                         <input type="radio" id="select-imbiribeira" name="where" value="imbiribeira" className={styles.option} />
-                                            <label for="select-imbiribeira" className="select-item">Imbiribeira - PE</label>
+                                            <label for="select-imbiribeira" className={styles.selectitem}>Imbiribeira - PE</label>
                                             <input type="radio" id="select-joaoPessoa" name="where" value="joaoPessoa" className={styles.option} />
-                                                <label for="select-joaoPessoa" className="select-item">João Pessoa - PB</label>
+                                                <label for="select-joaoPessoa" className={styles.selectitem}>João Pessoa - PB</label>
                                                 <input type="radio" id="select-natal" name="where" value="natal" className={styles.option} />
-                                                    <label for="select-natal" className="select-item">Natal - RN</label>
+                                                    <label for="select-natal" className={styles.selectitem}>Natal - RN</label>
                                                     <input type="radio" id="select-salvador" name="where" value="salvador" className={styles.option} />
-                                                        <label for="select-salvador" className="select-item">Salvador - BA</label>
+                                                        <label for="select-salvador" className={styles.selectitem}>Salvador - BA</label>
                                                         <input type="radio" id="select-tamarineira" name="where" value="tamarineira" className={styles.option} />
                                                             <label for="select-tamarineira" className={styles.selectitem}>Tamarineira - PE</label>
                                                         </div>
